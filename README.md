@@ -1,2 +1,2 @@
-# Violet_StudyRoom
-This is My StudyRoom
+# 매일 1 코딩 1 커밋
+<h4> 첫 번째 목표: CodeUp 기초 100문제 풀기 </h4>
