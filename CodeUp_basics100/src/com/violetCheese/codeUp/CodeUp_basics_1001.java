@@ -9,6 +9,6 @@ public class CodeUp_basics_1001 {
 		
 		System.out.print("Hello");
 	
-	}//End of main
+	}//main 메서드 끝
 	
-}//End of CodeUp_basics_1001
+}//CodeUp_basics_1001 클래스 끝
