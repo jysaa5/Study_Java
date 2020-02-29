@@ -2,7 +2,7 @@ package com.violetCheese.codeUp;
 
 public class CodeUp_basics_1003 {
 	
-	//메인 메서드 = 클래스에서 실행되는 메서드(함수)
+	//메인 메서드
 	public static void main(String[] args) {
 		
 		//방법1. 두 줄로 작성
