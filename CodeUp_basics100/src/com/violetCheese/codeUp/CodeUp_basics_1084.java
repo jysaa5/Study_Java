@@ -1,39 +1,37 @@
 package com.violetCheese.codeUp;
 
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.util.Scanner;
 
 public class CodeUp_basics_1084 {
 
 	// 메인 메서드
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
+		Scanner s = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
-        String[] strNum = str.split(" ");
-        
-        int a = Integer.parseInt(strNum[0]);
-        int b = Integer.parseInt(strNum[1]);
-        int c = Integer.parseInt(strNum[2]);
-        int cnt = a*b*c;
-        int i = 0;
-        int j = 0;
-        int k = 0;
-        
-        for(i = 0; i<a; i++){
-            
-            for(j=0; j<b; j++){
-                
-                for(k=0; k<c; k++){
-                    
-                    System.out.println(i+" "+j+" "+k);
-                    
-                }
-            }
-        }
-        
-        System.out.println(cnt);
-        sc.close();
+		int r = s.nextInt();
+		int g = s.nextInt();
+		int b = s.nextInt();
 
-	}// main 메서드 끝
+		BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(System.out));
+
+		for (int i = 0; i < r; i++) {
+			for (int j = 0; j < g; j++) {
+				for (int k = 0; k < b; k++) {
+
+					String st = i + " " + j + " " + k;
+					bf.write(st + "\n");
+					//원래는 flush를 해줘야 되는데 시간초과가 자꾸 걸려서 체점이 안됨.
+					//bf.flush();
+				}
+			}
+		}
+		bf.write(Integer.toString(r * g * b));
+		bf.close();
+		s.close();
+		
+	}// 메인 메서드
 
 }// CodeUp_basics_1084 클래스 끝
