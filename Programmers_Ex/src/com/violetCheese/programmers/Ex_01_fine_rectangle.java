@@ -3,6 +3,8 @@ package com.violetCheese.programmers;
 public class Ex_01_fine_rectangle {
 
     public static long solution(long w, long h){
+    	
+    	
         long width = w; 
         long height = h;
         long num_small = 0;
