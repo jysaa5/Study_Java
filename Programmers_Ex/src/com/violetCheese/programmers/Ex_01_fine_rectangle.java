@@ -1,6 +1,6 @@
 package com.violetCheese.programmers;
 
-public class Ex_01_fine_rectangle {
+public class Ex_01_Fine_Rectangle {
 
     public static long solution(long w, long h){
     	
