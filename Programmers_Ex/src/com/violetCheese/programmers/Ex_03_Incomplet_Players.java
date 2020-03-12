@@ -3,12 +3,13 @@ package com.violetCheese.programmers;
 import java.util.Arrays;
 import java.util.HashMap;
 
+//자료구조 문제
 public class Ex_03_Incomplet_Players {
 
-//solution1
-//배열과 Arrays 사용.
-//Hash를 사용하지 않고 풀어본 문제이지만, 효율성 테스트에서 다 0점을 받는다. 
-//이유는 for문을 이중으로 사용해서 시간의 복잡도가 O(n*n)이 되버리기 때문이다.
+    //solution1
+    //배열과 Arrays 사용.
+    //Hash를 사용하지 않고 풀어본 문제이지만, 효율성 테스트에서 다 0점을 받는다. 
+    //이유는 for문을 이중으로 사용해서 시간의 복잡도가 O(n*n)이 되버리기 때문이다.
 	public static String solution1(String[] participant, String[] completion) {
 
 		String[] p = participant;
@@ -39,8 +40,8 @@ public class Ex_03_Incomplet_Players {
 		return player;
 	}
 
-//solution2
-//Hash를 사용하지 않고 Array를 사용.	
+    //solution2
+    //Hash를 사용하지 않고 Array를 사용.	
 	public static String solution2(String[] participant, String[] completion) {
 
 		Arrays.sort(participant);
@@ -58,8 +59,8 @@ public class Ex_03_Incomplet_Players {
 		return participant[i];
 	}
 
-//solution3
-//Hash 사용.
+    //solution3
+    //Hash 사용.
 	public static String solution3(String[] participant, String[] completion) {
 
 		String answer = "";
@@ -99,14 +100,15 @@ public class Ex_03_Incomplet_Players {
 		return answer;
 	}
 
-//test
+	
+    //test
 	public static void main(String[] args) {
 		String[] participant1 = { "leo", "kiki", "eden" };
 		String[] completion1 = { "eden", "kiki" };
 
 		String[] participant2 = { "leo", "kiki", "eden" };
 		String[] completion2 = { "eden", "kiki" };
-		
+
 		String[] participant3 = { "leo", "kiki", "eden" };
 		String[] completion3 = { "eden", "kiki" };
 

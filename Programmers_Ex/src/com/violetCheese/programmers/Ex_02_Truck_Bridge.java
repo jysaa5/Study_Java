@@ -3,6 +3,7 @@ package com.violetCheese.programmers;
 import java.util.LinkedList;
 import java.util.Queue;
 
+//자료구조 문제
 public class Ex_02_Truck_Bridge {
 
 	public static int solution(int bridge_length, int weight, int[] truck_weights) {
