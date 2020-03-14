@@ -112,10 +112,13 @@ class HashTable {
 	
 	//5.키를 가지고 데이터를 가져오는 함수
 	String get(String key) {
+		
 		int hashcode = getHashCode(key);
 		int index = convertToIndex(hashcode);
 		LinkedList<Node> list = data[index];
+		
 		Node node = searchkey(list, key);
+		
 		return node == null? "Not found": node.value();
 		
 	}
