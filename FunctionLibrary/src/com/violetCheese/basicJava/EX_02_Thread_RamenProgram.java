@@ -6,7 +6,7 @@ public class EX_02_Thread_RamenProgram {
 	public static void main(String args[]) {
 		
 		try {
-		RamenCook ramenCook = new RamenCook(Integer.parseInt(args[0]));
+		RamenCook ramenCook = new RamenCook(100); //라면의 개수를 임의로 100개를 줘본다.
 		//각각의 스레드 
 		new Thread(ramenCook, "A").start();
 		new Thread(ramenCook, "B").start();
@@ -48,8 +48,12 @@ class RamenCook implements Runnable{
 				ramenCount --;
 				
 				System.out.println(Thread.currentThread().getName()+":"+ramenCount+"개 남음");
+				
+				
+				
 			}
 			
+			//이부분 코드 개선이 필요하다
 			//그리고 버너들 4개 중 빈 것을 찾는다.
 			for(int i=0; i<burners.length; i++) {
 				if(!burners[i].equals("_")) {
@@ -58,6 +62,7 @@ class RamenCook implements Runnable{
 
 			//둘 이상의 스레드가 한 버너를 켜지 못하게 한다.
 			synchronized(this) {
+				
 				//해당 스레드의 이름으로 버너를 차지한다.
 				burners[i] = Thread.currentThread().getName();
 				System.out.println("                                     "+Thread.currentThread().getName() + ": ["+(i+1)+"]번 버너 ON");
