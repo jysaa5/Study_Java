@@ -64,6 +64,8 @@ public class DataTypeMain {
 				System.out.println("1~9 사이의 숫자를 다시 선택해주세요.");
 				System.out.println("---------------------------");
 			}
+			
+			sc.close();
 
 		}
 	}
