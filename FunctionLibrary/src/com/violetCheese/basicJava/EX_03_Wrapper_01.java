@@ -1,6 +1,6 @@
 package com.violetCheese.basicJava;
 
-public class EX_03_Wrapper_01 {
+public class Ex_03_Wrapper_01 {
 
 	public static void main(String[] args) {
 		

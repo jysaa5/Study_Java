@@ -1,6 +1,6 @@
 package com.violetCheese.basicJava;
 
-public class EX_01_Object_Student {
+public class Ex_01_Object_Student {
 	
 	String name;
 	String number;
@@ -25,7 +25,7 @@ public class EX_01_Object_Student {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		EX_01_Object_Student other = (EX_01_Object_Student) obj;
+		Ex_01_Object_Student other = (Ex_01_Object_Student) obj;
 		if (number == null) {
 			if (other.number != null)
 				return false;
@@ -45,12 +45,12 @@ public class EX_01_Object_Student {
 	//main ¸Þ¼­µå
 	public static void main(String[] args) {
 		
-		EX_01_Object_Student s1 = new EX_01_Object_Student();
+		Ex_01_Object_Student s1 = new Ex_01_Object_Student();
 		s1.name = "È«±æµ¿";
 		s1.number = "1234";
 		s1.birthYear = 1995;
 		
-		EX_01_Object_Student s2 = new EX_01_Object_Student();
+		Ex_01_Object_Student s2 = new Ex_01_Object_Student();
 		s2.name = "È«±æµ¿";
 		s2.number = "1234";
 		s2.birthYear = 1995;

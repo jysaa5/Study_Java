@@ -1,7 +1,7 @@
 package com.violetCheese.basicJava;
 
 //라면 끓이는 섹션에 버너가 4개가 있다면, 스레드도 4개를 만들어서 라면이 최대 4개까지 동시에 끓여지도록 프로그래밍한다.
-public class EX_02_Thread_RamenProgram {
+public class Ex_02_Thread_RamenProgram {
 
 	public static void main(String args[]) {
 		

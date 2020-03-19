@@ -1,6 +1,6 @@
 package com.violetCheese.basicJava;
 
-public class EX_04_Wrapper_02 {
+public class Ex_04_Wrapper_02 {
 
 	public static void main(String[] args) {
 		Integer i1 = 5;
