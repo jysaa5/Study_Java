@@ -2,8 +2,8 @@ package com.violetCheese.sort;
 
 import java.util.Arrays;
 
-//1.문자열 내림차순으로 배치하기. 영문 대소문자로만 구성되며, 대문자는 소문자보다 작다. Zbcdefg -> gfedcbZ
-//3)solution
+// 1.문자열 내림차순으로 배치하기. 영문 대소문자로만 구성되며, 대문자는 소문자보다 작다. Zbcdefg -> gfedcbZ
+// 3)solution
 public class Ex_String_SortDes_03 {
 	public String sortDesStr(String str) {
 		//문자열을 문자로 쪼개서 배열에 저장
@@ -15,7 +15,7 @@ public class Ex_String_SortDes_03 {
 	}
 
 	
-	//test
+	// test
 	public static void main(String[] args) {
 		Ex_String_SortDes_03 strSd = new Ex_String_SortDes_03();
 		System.out.println(strSd.sortDesStr("Zbcdefg"));
