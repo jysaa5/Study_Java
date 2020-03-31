@@ -1,5 +1,6 @@
 package sort.mergeSort;
 
+//재귀를 이용한 병합(합병) 정렬
 public class Merge_Sort {
 	
 	//merge sort 함수 정의
@@ -19,6 +20,7 @@ public class Merge_Sort {
 		
 	}
 	
+	//mergeSort: 배열을 쪼개는 메서드
 	//재귀함수
 	//arr: 정렬할 배열, tmp: 임시 공간, start: 시작 인덱스, end: 끝 인덱스
 	private static void mergeSort(int[] arr, int[] tmp, int start, int end) {
@@ -81,21 +83,26 @@ public class Merge_Sort {
 		
 	}
 	
+	//printArray 메서드: 배열 출력 
 	public static void printArray(int[] arr) {
 		for(int data: arr) {
 			System.out.print(data+",");
 		}
+		
 		System.out.println();
-	}
+		
+	}//printArray 종료
 	
 	
+	//main 메서드
 	public static void main(String[] args) {
 		int[] arr = {3,9,4,7,5,0,1,6,8,2};
+		System.out.println("===========정렬 전============");
 		printArray(arr);
+		
+		System.out.println("===========정렬 후============");
 		mergeSort(arr);
 		printArray(arr);
-	}
-	
-	
+	}// main 종료
 
-}
+}//Merge_Sort 종료

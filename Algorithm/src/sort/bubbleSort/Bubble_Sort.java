@@ -1,5 +1,6 @@
 package sort.bubbleSort;
 
+//재귀를 이용한 버블 정렬 구현
 public class Bubble_Sort {
 
 	//bubbleSort: 버블정렬 메서드
@@ -63,7 +64,11 @@ public class Bubble_Sort {
 	public static void main(String[] args) {
 		
 		int[] arr = {3,5,4,2,1};
+		
+		System.out.println("===========정렬 전============");
 		printArray(arr);
+		
+		System.out.println("===========정렬 후============");
 		bubbleSort(arr);
 		printArray(arr);
 		

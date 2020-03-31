@@ -1,5 +1,6 @@
 package sort.insertionSort;
 
+//재귀를 이용한 삽입 정렬
 public class Insertion_Sort {
 
 	
@@ -16,10 +17,10 @@ public class Insertion_Sort {
 		
 		if(start < arr.length) {
 			
-			//기준 인덱스의 배열의 값
+			//기준 인덱스의 배열의 값 = key 값
 			int standard = arr[start];
 			
-			//정렬되어 있다고 가정한 인덱서의 값
+			//정렬되어 있다고 가정한 인덱스의 값
 			int compareIndex = start-1;
 			
 			
@@ -52,8 +53,13 @@ public class Insertion_Sort {
 	
 	//main: 메인 실행 메서드
 	public static void main(String[] args) {
+		
 		int[] arr = { 3, 6, 1, 8, 2, 4 };
+		
+		System.out.println("===========정렬 전============");
 		printArray(arr);
+		
+		System.out.println("===========정렬 후============");
 		insertionSort(arr);
 		printArray(arr);
 		
