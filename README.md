@@ -51,7 +51,7 @@
        <li> 
         <h6>
           <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/recursiveFunction_ex">
-            재귀함수
+            재귀
           </a>
         </h6> 
       </li>
