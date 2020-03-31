@@ -24,7 +24,7 @@
   <li> 
     <h5>
       <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src">
-    네 번째 목표: 자바 공부하면서 필요한 기능 직접 만들어 보기
+    네 번째 목표: 자바 공부하면서 필요한 기능 직접 구현
     </a>
     </h5>
     <ul> 
