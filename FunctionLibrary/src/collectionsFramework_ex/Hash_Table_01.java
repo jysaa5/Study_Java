@@ -29,7 +29,7 @@ class HashTable {
 			this.value = value;
 		}
 
-	}
+	}//Node 종료
 
 	// 데이터를 저장할 리스트를 배열로 선언 -> 배열에 저장될 데이터의 타입을 LinkedList로 만든다.
 	LinkedList<Node>[] data;
@@ -49,12 +49,15 @@ class HashTable {
 			hashcode += c;
 		}
 		return hashcode;
-	}
+		
+	}//getHashCode 종료
 	
 	//2.hashcode를 받아서 배열 방의 index를 받은 함수
 	int convertToIndex(int hashcode) {
+		
 		return hashcode % data.length;
-	}
+	
+	}//convertToIndex 종룐
 	
 	
 	//3. 검색 시, index로 배열 방을 찾은 이후에 배열 방 안에 노드가 여러개 존재 할 때, 검색 키로 해당 노드를 찾아오는 함수
@@ -72,7 +75,7 @@ class HashTable {
 			
 		}
 		return null;
-	}
+	}//searchkey 종료
 	
 	//4.데이터를 받아서 저장하는 함수
 	void put(String key, String value) {
@@ -107,7 +110,7 @@ class HashTable {
 			
 		}
 		
-	}
+	}//put 종료
 	
 	
 	//5.키를 가지고 데이터를 가져오는 함수
@@ -121,15 +124,14 @@ class HashTable {
 		
 		return node == null? "Not found": node.value();
 		
-	}
+	}//get 종료
 	
-	
-	
-	
-}
+}//HashTable 종료
 
+//Hash_Table_01 클래스
 public class Hash_Table_01 {
 	
+	//main 메서드
 	public static void main(String[] args) {
 		HashTable h = new HashTable(3);
 		
@@ -149,10 +151,6 @@ public class Hash_Table_01 {
 		//없는 데이터 호출
 		System.out.println(h.get("jae"));
 		
-	}
-	
-	
-	
-	
+	}//main 종료
 
-}
+}//Hash_Table_01 종료
