@@ -36,8 +36,8 @@
       </li>
       <li> 
         <h6>
-          <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/collectionsFramework_ex">
-            Collections Framework
+          <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/DataStructure/src/dataStructureImp">
+            자료구조
           </a>
         </h6> 
       </li>
@@ -66,7 +66,7 @@
   </li>
      <li>
        <h5> 
-         <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Algorithm">다섯 번째 목표: 알고리즘 
+         <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Algorithm">다섯 번째 목표: 알고리즘
          </a>
        </h5> 
   </li>
