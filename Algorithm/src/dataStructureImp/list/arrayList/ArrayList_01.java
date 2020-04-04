@@ -1,4 +1,4 @@
-package collectionsFramework_ex;
+package dataStructureImp.list.arrayList;
 
 import java.util.ArrayList;
 

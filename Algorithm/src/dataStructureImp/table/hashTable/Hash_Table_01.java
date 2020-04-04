@@ -1,4 +1,4 @@
-package collectionsFramework_ex;
+package dataStructureImp.table.hashTable;
 
 import java.util.LinkedList;
 
