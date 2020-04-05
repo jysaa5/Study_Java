@@ -31,7 +31,7 @@ public class LinkedList {
 		
 	}
 	
-	//가장 앞에 노드 추가하는 메서드
+	//가장 앞에 노드를 추가하는 메서드
 	public void addFirst(Object input) {
 		Node newNode = new Node(input);
 		
@@ -49,4 +49,49 @@ public class LinkedList {
 		}
 	}
 	
-}
+	//가장 뒤에 노드를 추가하는 메서드
+	public void addLast(Object input) {
+		
+		Node newNode = new Node(input);
+		
+		//size = 0 이면 데이터가 아예 없는 상태이다. 앞에서 넣건 뒤에서 넣건 똑같으므로.
+		//데이터가 아예 없을 때는 tail이 없으므로 addFirst 메서드를 사용한다.
+		if(size == 0) {
+			addFirst(input);
+		}else {
+			
+			//tail: 가장 뒤에 있는 노드 
+			//기존 tail 노드의 다음 노드가 새로 생성된 노드이다.
+			tail.next = newNode;
+			//그리고 tail이 새로 생긴 노드가 된다.
+			tail = newNode;
+			size ++;
+		
+		}
+		
+	}
+	
+	//내부적으로만 사용될 API
+	//테스트를 위해서 public으로 지정
+	//public Node node(int index){}
+	//내부적으로만 사용되어야 하므로 public을 제거한다.
+	Node node(int index) {
+		
+		//head를 먼저 찾아야 된다.
+		Node x = head;
+		
+		//두 번째
+		//x = x.next;
+		
+		//세번째
+		//x = x.next;
+		
+		for(int i =0; i<index; i++) {
+			
+			x = x.next;
+		
+		}
+		return x;
+	}
+	
+}//LinkedList 종료
