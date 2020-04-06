@@ -3,8 +3,8 @@ package sort.radixSort;
 import java.util.Arrays;
 
 //RadixSort: 기수 정렬 클래스
-//MSB -> LSB
-public class RadixSort {
+//LSB -> MSB
+public class RadixSort_LSB_MSB {
 
 	//getMax: 최대값을 찾는 메서드
 	//arr: 배열의 변수
@@ -26,7 +26,7 @@ public class RadixSort {
 	//countSort: 배열을 계수정렬하는 메서드
 	//arr: 배열 변수
 	//n: 배열의 개수
-	//exp: 10, 100, 1000... 
+	//exp: 1, 10, 100, 1000... 
 	private static void countSort(int[] arr, int n, int exp) {
 		
 		int[] output = new int[n];
@@ -57,7 +57,6 @@ public class RadixSort {
 		for(i = 0; i < n; i++) {
 			arr[i] = output[i];
 		}
-		
 	}
 	
 	
@@ -91,9 +90,9 @@ public class RadixSort {
 		
 		int n = arr.length;
 		
-		System.out.println("===========정렬 전============");
+		System.out.println("============정렬 전=============");
 		printArray(arr);
-		System.out.println("===========정렬 후============");
+		System.out.println("============정렬 후=============");
 		radixSort(arr, n);
 		printArray(arr);
 		
