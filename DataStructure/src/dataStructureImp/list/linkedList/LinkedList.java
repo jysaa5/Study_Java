@@ -94,4 +94,32 @@ public class LinkedList {
 		return x;
 	}
 	
+	//k: 추가하려고 하는 노드의 리스트상의 index값
+	//add: 중간에 노드를 삽입 = 이전 노드를 알아야 된다. 그래야 삽입된 노드가 다음 노드를 가리킬수 있다.
+	public void add(int k, Object input) {
+		//데이터가 아무것도 없을 때
+		if(k == 0) {
+			
+			addFirst(input);
+		
+		}else {
+			
+			//삽입될 노드의 이전 노드
+			Node temp1 = node(k-1);
+			//삽입될 노드의 이후 노드
+			Node temp2 = temp1.next;
+			//새로운 노드 추가
+			Node newNode = new Node(input);
+			temp1.next = newNode;
+			newNode.next = temp2;
+			size ++;
+			
+			//삽입한 노드가 맨 마지막 노드일 때
+			if(newNode.next ==null) {
+				tail = newNode;
+			}
+		
+		}
+	}
+	
 }//LinkedList 종료
