@@ -16,6 +16,8 @@ public class Main {
 		numbers.addLast(10);
 		numbers.addLast(20);
 		numbers.addLast(30);
+		numbers.addFirst(5);
+		numbers.add(1, 15);
 		
 		//node 인덱스 0번이 반환된다.
 		//System.out.println(numbers.node(0));
@@ -23,8 +25,11 @@ public class Main {
 		//System.out.println(numbers.node(2));
 		
 		//index: 1 , data: 15 -> 20이 뒤로 밀려서 10과 20사이에 15가 들어간다.
-		numbers.add(1, 15);
-		numbers.add(2, 25);
+		//numbers.add(1, 15);
+		//numbers.add(2, 25);
+		
+		//toString
+		System.out.println(numbers);
 	
 	}
 

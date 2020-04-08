@@ -122,4 +122,27 @@ public class LinkedList {
 		}
 	}
 	
+	//리스트가 가지고 있는 데이터 출력
+	public String toString() {
+		
+		//리스트에 데이터가 없을 때.
+		if(head == null) {
+			return "[]";
+		}
+		
+		Node temp = head;
+		String str = "[";
+		
+		while (temp.next != null) {
+			//구분자: ,
+			str += temp.data + ",";
+			temp = temp.next;
+			
+		}
+		
+		str += temp.data;
+		
+		return str+"]";
+	}
+	
 }//LinkedList 종료
