@@ -145,4 +145,172 @@ public class LinkedList {
 		return str+"]";
 	}
 	
+	//removeFirst: 첫 번째 노드 삭제
+	//데이터 삭제 메서드
+	//데이터가 삭제되면 갖고 있던 데이터 값을 반환한다.
+	public Object removeFirst() {
+		//head 값을 temp에 넣는다.
+		Node temp = head;
+		//head를 다음 노드를 가리키게 한다.
+		head = head.next;
+		
+		//삭제할 노드의 데이터 값 저장
+		Object returnData = temp.data;
+		temp = null;
+		//리스트 사이즈 감소시킨다.
+		size --;
+		
+		return returnData;
+	}
+	
+	//remove: 리스트의 인덱스에 해당하는 노드를 삭제하는 메서드
+	//k: index(인덱스)
+	public Object remove(int k) {
+		
+		//리스트의 인덱스 0일 때.
+		if(k == 0) {
+			return removeFirst();
+		}
+		
+		//리스트 삭제할 때, 이전 노드를 알아야 된다. 이전 노드에서 next값을 바꿔줘야 하기 때문이다.
+		//삭제 = 링크가 없어진다는 의미
+		//삭제할 노드의 이전 노드
+		Node temp = node(k-1);
+		//삭제할 노드
+		Node todoDeleted = temp.next;
+		temp.next = temp.next.next;
+		
+		Object  returnData = todoDeleted.data;
+		
+		//삭제할 노드가 제읾 마짐가 노드 일때
+		if(todoDeleted == tail) {
+			tail = temp;
+		}
+		
+		todoDeleted = null;
+		//사이즈 감소
+		size --;
+		return returnData;
+
+	}
+	
+	//removeLast: 리스트의 맨 마지막 노드를 삭제하는 메서드
+	public Object removeLast() {
+		
+		return remove(size-1);
+	}
+	
+	//size: 리스트의 길이를 반환하는 메서드
+	public int size() {
+		return size;
+	}
+
+	//get: 리스트 인덱스에 해당하는 노드의 데이터 값을 반환하는 메서드
+	//k: 리스트 index
+	public Object get(int k) {
+		Node temp = node(k);
+		
+		return temp.data;
+	}
+	
+	//indexOf: 데이터가 리스트에서의 위치를 반환하는 메서드
+	public Object indexOf(Object data) {
+		Node temp = head;
+		int index = 0;
+		
+		//현재 temp의 값과 인자로 데이터로 들어온 데이터의 값이 같지 않다면 반복
+		while(temp.data != data) {
+			temp = temp.next;
+			index ++;
+			//마지막 노드에 도달했지만 인자로 들어온 데이터가 없을 때.
+			if(temp ==null) {
+				return -1;
+			}
+		}
+		return index;
+	}
+	
+	
+	//listIterator: ListIterator 객체를 생성해서 반환하는 메서드
+	public ListIterator listIterator() {
+	
+		return new ListIterator();
+	
+	}//listIterator 종료
+	
+	
+	//ListIterator 클래스
+	public class ListIterator{
+		
+		//next 변수: 첫번째 요소부터 마지막 요소까지 차례대로 가리킨다.
+		private Node next;
+		//lastReturned 변수: 반환할 값 
+		private Node lastReturned;
+		//nextIndex 변수: next변수가 가리키고 있는 노드의 인덱스
+		private int nextIndex;
+		
+		//생성자
+		ListIterator(){
+			next = head;
+		}
+		
+		//next 메서드: 첫번째의 노드의 값이 반환되고 그 다음 next를 호출했을 때, 리턴된 값을 가리킨다.
+		//next 메서드가 호출될 때마다 리스트의 값이 반환된다.
+		public Object next() {
+			
+			lastReturned = next;
+			next = next.next;
+			nextIndex ++;
+			
+			return lastReturned.data;
+		}
+		
+		//hasNext: 다음 next 변수가 null인지 안닌지 true 또는 false로 반환하는 메서드
+		public boolean hasNext() {
+			return nextIndex < size();
+		}
+		
+		//add: 노드 삽입
+		public void add(Object input) {
+			Node newNode = new Node(input);
+			
+			//맨 처음에 노드가 삽입 될 때.next는 기존의 노드중에서 맨 처음을 가리킨다.
+			//lastReturned는 null 상태이다.
+			if(lastReturned==null) {
+			
+				head = newNode;
+				newNode.next = next;
+			
+				//중간에 삽입
+			}else {
+				
+				lastReturned.next = newNode;
+				newNode.next = next;
+			
+			}
+			lastReturned = newNode;
+			nextIndex ++;
+			size ++;
+		}
+		
+		//remove: 노드 삭제 = 연결을 제거하는 것을 의미한다.
+		public void remove() {
+			
+			// next를 한번도 호출 하지 않았을 때 = 아무런 요소를 선택하지 않은 상태 = next가 첫번째 노드를 가리킬 때
+			if(nextIndex == 0) {
+				throw new IllegalStateException();
+			}
+			
+			//삭제
+			//lastReturned인 것을 삭제 한다.
+			//하지만 이 작업은 node를 찾는 작업을 다시 한다. = 비효율적이다.
+			LinkedList.this.remove(nextIndex-1);
+			
+			nextIndex --;
+			
+		
+		}
+		
+	}//ListIterator 종료
+	
 }//LinkedList 종료
