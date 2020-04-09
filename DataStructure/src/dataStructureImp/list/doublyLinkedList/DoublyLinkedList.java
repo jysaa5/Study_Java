@@ -1,8 +1,9 @@
-package dataStructureImp.list.linkedList;
+package dataStructureImp.list.doublyLinkedList;
 
-//단순연결리스트
-//단방향리스트
-public class LinkedList {
+//이중연결 리스트
+//양방향 연결 리스트
+//Java collection Framework의 연결리스트 = doubly linked list 이다.
+public class DoublyLinkedList {
 	
 	//제일 처음 노드
 	private Node head;
@@ -22,9 +23,13 @@ public class LinkedList {
 		//다음 노드의 정보
 		private Node next;
 		
+		//이전 노드의 정보
+		private Node prev;
+		
 		public Node(Object input) {
 			this.data = input;
 			this.next = null;
+			this.prev = null;
 		}
 		
 		public String toString() {
@@ -306,7 +311,7 @@ public class LinkedList {
 			//삭제
 			//lastReturned인 것을 삭제 한다.
 			//하지만 이 작업은 node를 찾는 작업을 다시 한다. = 비효율적이다.
-			LinkedList.this.remove(nextIndex-1);
+			DoublyLinkedList.this.remove(nextIndex-1);
 			
 			nextIndex --;
 			
