@@ -77,6 +77,7 @@ public class LinkedList {
 	//테스트를 위해서 public으로 지정
 	//public Node node(int index){}
 	//내부적으로만 사용되어야 하므로 public을 제거한다.
+	//node 메서드: head부터 쭈욱 찾는 것
 	Node node(int index) {
 		
 		//head를 먼저 찾아야 된다.

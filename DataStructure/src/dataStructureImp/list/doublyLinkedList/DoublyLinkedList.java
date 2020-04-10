@@ -93,10 +93,36 @@ public class DoublyLinkedList {
 	// 테스트를 위해서 public으로 지정
 	// public Node node(int index){}
 	// 내부적으로만 사용되어야 하므로 public을 제거한다.
+	//node 메서드: head부터 쭈욱 찾는 것
 	Node node(int index) {
+		
+		//전체 크기로 찾고하자 하는 위치를 판별
+		//head에서부터 찾기
+		if(index < size /2) {
+			// head를 먼저 찾아야 된다.
+			Node x = head;
+			
+			for (int i = 0; i < index; i++) {
 
-		// head를 먼저 찾아야 된다.
-		Node x = head;
+				x = x.next;
+
+			}
+			return x;
+			
+		//tail부터 찾기
+		}else {
+			
+			Node x = tail;
+			
+			for(int i= size-1; i > index; i--) {
+				
+				x = x.prev;
+			
+			}
+			return x;
+		}
+		
+	
 
 		// 두 번째
 		// x = x.next;
@@ -104,12 +130,6 @@ public class DoublyLinkedList {
 		// 세번째
 		// x = x.next;
 
-		for (int i = 0; i < index; i++) {
-
-			x = x.next;
-
-		}
-		return x;
 	}
 
 	// k: 추가하려고 하는 노드의 리스트상의 index값
@@ -122,23 +142,28 @@ public class DoublyLinkedList {
 
 		} else {
 
-			// 삽입될 노드의 이전 노드
+			// 삽입될 노드 위치의 이전 노드
 			Node temp1 = node(k - 1);
 			// 삽입될 노드의 이후 노드
 			Node temp2 = temp1.next;
 			// 새로운 노드 추가
 			Node newNode = new Node(input);
 			
+			//새로운 노드의 이전 노드의 다음을 새로운 노드로 지정
 			temp1.next = newNode;
 			
+			//새로운 노드의 다음 노드를 다음 위치의 노드로 지정
 			newNode.next = temp2;
 			
+			//temp2가 있을 때
 			if(temp2 != null) {
 				
+				//새로 추가한 노드의 다음 노드가 새로운 노드를 가리키도록 지정
 				temp2.prev = newNode;
 		
 			}
 			
+			//새로운 노드의 이전 노드로 이전 노드를 가리키게 지정
 			newNode.prev = temp1;
 			
 			size++;
