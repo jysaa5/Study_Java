@@ -33,7 +33,7 @@ public class LinkedList {
 		
 	}
 	
-	//가장 앞에 노드를 추가하는 메서드
+	//addFirst: 가장 앞에 노드를 추가하는 메서드
 	public void addFirst(Object input) {
 		Node newNode = new Node(input);
 		
@@ -51,7 +51,7 @@ public class LinkedList {
 		}
 	}
 	
-	//가장 뒤에 노드를 추가하는 메서드
+	//addLast: 가장 뒤에 노드를 추가하는 메서드
 	public void addLast(Object input) {
 		
 		Node newNode = new Node(input);
