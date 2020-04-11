@@ -106,11 +106,14 @@ public class Main {
 		numbers.addLast(20);
 		numbers.addLast(30);
 		LinkedList.ListIterator i = numbers.listIterator();
+		i.next();
+		System.out.println(numbers);
 		//next가 맨 처음 노드를 가리키고 있고 lastReturned는 아무것도 가리키지 않기 때문에
 		//삭제할 것이 없으므로 삭제하면 오류가 발생한다.
 		//add일 때도 lastReturned 자리에 노드를 삽입하는 것이다.
 		//remove일 때도 lastReturned 자리에 노드를 제거한다.
 		i.remove();
+		System.out.println(numbers);
 		
 	}
 	
