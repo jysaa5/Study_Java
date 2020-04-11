@@ -9,6 +9,13 @@ public class ArrayList {
 	
 	//데이터의 개수, 사이즈
 	private int size = 0;
+
+	//맨 마지막에 데이터 추가
+	public boolean addLast(Object element) {
+		elementData [size] = element; 
+		size++;
+		return true; 
+	}
 	
 	
 }//ArrayList 종료
