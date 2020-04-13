@@ -1,9 +1,9 @@
 package dataStructureImp.list.linkedList;
 
 //단방향 연결 리스트
-
-//노드
+//Node 클래스: 노드로 구현
 class Node{
+	
 	//데이터: 보통은 Object를 넣는다.
 	int data;
 	//다음 노드를 갖고 있어야 되므로 생성한다. 초기값 = null
@@ -11,10 +11,11 @@ class Node{
 	
 	//생성자
 	Node(int d){
+		
 		this.data = d;
 	}
 
-	//노드 삽입
+	//append 메서드: 노드 삽입
 	void append(int d) {
 		//새로운 노드 생성
 		Node end = new Node(d);
@@ -30,9 +31,9 @@ class Node{
 		//새로운 노드 추가
 		point.next = end;
 		
-	}
+	}//append 종료
 	
-	//노드 삭제
+	//delete 메서드: 노드 삭제
 	//head: 누가 첫 번째 노드인지 알려준다.
 	//첫 번째 head는 삭제하지 못하도록 한다.
 	//head는 연결 리스트를 대표하는 첫번째 노드이기 때문에 삭제가 되면, 다른 객체가 삭제된 head를 갖게 되면 문제가 된다.
@@ -55,9 +56,10 @@ class Node{
 				point = point.next;
 			}
 		}
-	}
+		
+	}//delete 종료
 	
-	//리스트에 있는 데이터를 처음부터 끝까지 쭉 보여주는 메서드
+	//retrieve 메서드: 리스트에 있는 데이터를 처음부터 끝까지 쭉 보여주는 메서드
 	void retrieve() {
 		//point 생성
 		Node point = this;
@@ -70,11 +72,12 @@ class Node{
 		}
 		//맨 마지막 노드 출력
 		System.out.println(point.data);
-	}
+		
+	}//retrieve 종료
 
-}
+}//Node 종료
 
-//LinkedList_singly: 단방향 리스트
+//LinkedList_Node: 단방향 리스트
 public class LinkedList_Node {
 	
 	//main 메서드
@@ -88,7 +91,7 @@ public class LinkedList_Node {
 		head.delete(3);
 		head.retrieve();
 		
-	}//main 메서드
+	}//main 종료
 
-}
+}// LinkedList_Node 종료
 

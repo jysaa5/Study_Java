@@ -1,17 +1,19 @@
 package dataStructureImp.list.linkedList;
 
+//LinkedList 클래스: Node 구현한 연결 리스트를 보완한 것이다. 
 class LinkedList {
 	
 	//header 노드
 	Node header;
 
+	//Node 클래스
 	static class Node {
 
 		int data;
 		
 		Node next = null;
 
-	}
+	}//Node 종료
 
 	//생성자
 	LinkedList() {
@@ -20,7 +22,7 @@ class LinkedList {
 
 	}
 
-	// 노드 삽입
+	//append 메서드: 노드 삽입
 	void append(int d) {
 		// 새로운 노드 생성
 		Node end = new Node();
@@ -38,11 +40,11 @@ class LinkedList {
 		// 새로운 노드 추가
 		point.next = end;
 
-	}
+	}//append 종료
 
-	// 노드 삭제
+	// delete 메서드: 노드 삭제
 	// head: 누가 첫 번째 노드인지 알려준다.
-	// 첫 번째 head 값 삭제가 가능하다.
+	// 첫 번째 head 값 삭제가 가능하다. head는 데이터로 쓰이지 않고 관리용도로만 쓰인다.
 	void delete(int d) {
 
 		// 포인터 생성
@@ -62,9 +64,10 @@ class LinkedList {
 				point = point.next;
 			}
 		}
-	}
+	}//delete 종료
 
-	// 리스트에 있는 데이터를 처음부터 끝까지 쭉 보여주는 메서드
+	
+	//retrieve 메서드: 리스트에 있는 데이터를 처음부터 끝까지 쭉 보여주는 메서드
 	void retrieve() {
 		// point 생성
 		Node point = header.next;
@@ -77,12 +80,17 @@ class LinkedList {
 		}
 		// 맨 마지막 노드 출력
 		System.out.println(point.data);
-	}
+		
+	}//retrieve 종료
 
-}
+}//LinkedList 종료
 
+//LinkedList_LinkedListNode 클래스
 public class LinkedList_LinkedListNode {
+	
+	//main 메서드: 실행 메서드
 	public static void main(String[] args) {
+	
 		LinkedList ll = new LinkedList();
 		ll.append(1);
 		ll.append(2);
@@ -91,6 +99,7 @@ public class LinkedList_LinkedListNode {
 		ll.retrieve();
 		ll.delete(1);
 		ll.retrieve();
-	}
+	
+	}//main 종료
 
-}
+}//LinkedList_LinkedListNode 종료
