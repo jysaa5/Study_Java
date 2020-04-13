@@ -5,7 +5,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 	
-		LinkedList numbers = new LinkedList();
+		LinkedList_singly numbers = new LinkedList_singly();
 		
 		//맨 처음에 노드에 노드 추가
 		//numbers.addFirst(30);
@@ -105,7 +105,7 @@ public class Main {
 		numbers.addLast(10);
 		numbers.addLast(20);
 		numbers.addLast(30);
-		LinkedList.ListIterator i = numbers.listIterator();
+		LinkedList_singly.ListIterator i = numbers.listIterator();
 		i.next();
 		System.out.println(numbers);
 		//next가 맨 처음 노드를 가리키고 있고 lastReturned는 아무것도 가리키지 않기 때문에
