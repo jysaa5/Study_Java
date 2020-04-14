@@ -1,4 +1,4 @@
-package dataStructureImp.list.linkedList;
+package Imp.list.linkedList;
 
 //단순연결리스트
 //단방향리스트

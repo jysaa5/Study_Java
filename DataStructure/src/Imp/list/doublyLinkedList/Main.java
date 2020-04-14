@@ -1,6 +1,6 @@
-package dataStructureImp.list.doublyLinkedList;
+package Imp.list.doublyLinkedList;
 
-import dataStructureImp.list.doublyLinkedList.DoublyLinkedList.ListIterator;
+import Imp.list.doublyLinkedList.DoublyLinkedList.ListIterator;
 
 //Main: 실행 클래스
 public class Main {

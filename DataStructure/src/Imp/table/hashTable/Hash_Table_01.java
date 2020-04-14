@@ -1,4 +1,4 @@
-package dataStructureImp.table.hashTable;
+package Imp.table.hashTable;
 
 import java.util.LinkedList;
 
@@ -31,14 +31,17 @@ class HashTable {
 
 	}//Node 종료
 
+	
 	// 데이터를 저장할 리스트를 배열로 선언 -> 배열에 저장될 데이터의 타입을 LinkedList로 만든다.
 	LinkedList<Node>[] data;
 
+	
 	//해시 테이블을 만드는 순간 배열방을 얼마만큼 고정된 방을 만들지 미리 선언
 	HashTable(int size) {
 		this.data = new LinkedList[size];
 	}
 
+	
 	//기본적으로 중요한 함수
 	//1.해시 알고리즘 함수
 	//해시 알고리즘을 갖고 있는 함수: 키를 받아서 해시코드를 반환한다.
@@ -51,6 +54,7 @@ class HashTable {
 		return hashcode;
 		
 	}//getHashCode 종료
+	
 	
 	//2.hashcode를 받아서 배열 방의 index를 받은 함수
 	int convertToIndex(int hashcode) {
@@ -76,6 +80,7 @@ class HashTable {
 		}
 		return null;
 	}//searchkey 종료
+	
 	
 	//4.데이터를 받아서 저장하는 함수
 	void put(String key, String value) {

@@ -1,4 +1,4 @@
-package dataStructureImp.list.doublyLinkedList;
+package Imp.list.doublyLinkedList;
 
 //이중연결 리스트
 //양방향 연결 리스트

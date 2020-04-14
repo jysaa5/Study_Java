@@ -1,4 +1,4 @@
-package dataStructureImp.list.arrayList;
+package lmp.list.arrayList;
 
 //Main Å¬·¡½º
 public class Main {

@@ -1,4 +1,4 @@
-package dataStructureImp.list.linkedList;
+package Imp.list.linkedList;
 
 //Main: 실행 클래스
 public class Main {

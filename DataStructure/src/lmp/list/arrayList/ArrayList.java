@@ -1,4 +1,4 @@
-package dataStructureImp.list.arrayList;
+package lmp.list.arrayList;
 
 //ArrayList: 어레이 리스트 클래스
 public class ArrayList {

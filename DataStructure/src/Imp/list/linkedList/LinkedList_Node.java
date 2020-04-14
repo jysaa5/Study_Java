@@ -1,4 +1,4 @@
-package dataStructureImp.list.linkedList;
+package Imp.list.linkedList;
 
 //단방향 연결 리스트
 //Node 클래스: 노드로 구현
