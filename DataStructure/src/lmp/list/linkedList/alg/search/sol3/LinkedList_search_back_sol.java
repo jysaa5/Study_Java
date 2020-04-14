@@ -1,9 +1,8 @@
-package lmp.list.linkedList.alg.search.sol1;
+package lmp.list.linkedList.alg.search.sol3;
 
 //단방향 LinkedList의 끝에서 K번째 노드를 찾는 알고리즘을 구현.
-//방법1: LinkedList 앞에서 부터 계산해서 데이터를 가져온다.
-//ex) 2 -> 3 -> 1 -> 4
-//k=1 , length=4, 4-1 = 3+1 = 4 
+//방법3: 포인터 2개 사용
+//공간복잡도: O(1), 시간복잡도: O(n)
 class LinkedList {
 
 	// header 노드
@@ -132,37 +131,30 @@ class LinkedList {
 	//kthToLast: 뒤에서부터 k번째 데이터 찾는 메서드
 	//k: 뒤에서부터 k번째
 	Node kthToLast(Node first, int k) {
-
-		// pointer
-		// header를 가리킨다.
-		Node n = first;
-
-		// total -> 연결리스트에 있는 노드 개수를 세어서 저장하는 변수
-		int total = 1;
-
-		//전체 노드의 개수를 구하는 부분
-		while (n.next != null) {
-			
-			total++;
-			
-			n = n.next;
+		Node p1 = first;
+		Node p2 = first;
+		
+		for(int i=0; i<k; i++) {
+			if(p1 == null) {
+				return null;
+			}
+			p1 = p1.next;
 		}
 		
-		n = first;
-
-		//해당하는 노드까지 반복하는 부분
-		for (int i = 1; i < total - k + 1; i++) {
-			
-			n = n.next;
-
+		while(p1 != null) {
+			p1 = p1.next;
+			p2 = p2.next;
 		}
-		return n;
+		
+		return p2;
 		
 	}//kthToLast 종료
 	
 
 }// LinkedList 종료
 
+
+	
 
 //LinkedList_search_back_sol 클래스
 public class LinkedList_search_back_sol {
@@ -176,10 +168,11 @@ public class LinkedList_search_back_sol {
 		ll.append(4);
 		ll.retrieve();
 		int k = 1;
+
+		LinkedList.Node found = ll.kthToLast(ll.header, k);
+		System.out.println(found.data);
 		
-		ll.kthToLast(ll.header, k);
-		
-		System.out.println("Last k(" + k +")th data is "+ ll.kthToLast(ll.header, k).data);
+
 
 	}//main 종료
 
