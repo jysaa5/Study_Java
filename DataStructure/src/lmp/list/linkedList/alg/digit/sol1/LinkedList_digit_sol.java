@@ -156,7 +156,7 @@ class LinkedList {
 
 		return result;
 
-	}
+	}//sumLists 종료
 
 }// LinkedList 종료
 
