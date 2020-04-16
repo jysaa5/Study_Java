@@ -1,6 +1,6 @@
 package lmp.list.linkedList.alg.search.sol3;
 
-//단방향 LinkedList의 끝에서 K번째 노드를 찾는 알고리즘을 구현.
+//문제: 단방향 LinkedList의 끝에서 K번째 노드를 찾는 알고리즘을 구현.
 //방법3: 포인터 2개 사용
 //공간복잡도: O(1), 시간복잡도: O(n)
 class LinkedList {
@@ -95,37 +95,6 @@ class LinkedList {
 		System.out.println(point.data);
 
 	}// retrieve 종료
-
-	
-	//removeDups: 중복을 제거하는 메서드
-	void removeDups() {
-		
-		Node n = header;
-
-		while (n != null && n.next != null) {
-			
-			Node r = n;
-
-			// 마지막 노드값까지 가지 않는다.
-			while (r.next != null) {
-
-				if (n.data == r.next.data) {
-
-					r.next = r.next.next;
-
-				} else {
-				
-					r = r.next;
-		
-				}
-			
-			}
-
-			n = n.next;
-		
-		}
-		
-	}//removeDups 종료
 	
 	
 	//kthToLast: 뒤에서부터 k번째 데이터 찾는 메서드
@@ -155,7 +124,6 @@ class LinkedList {
 
 
 	
-
 //LinkedList_search_back_sol 클래스
 public class LinkedList_search_back_sol {
 

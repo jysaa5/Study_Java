@@ -90,59 +90,6 @@ class LinkedList {
 		System.out.println(point.data);
 
 	}// retrieve 종료
-
-	// removeDups: 중복을 제거하는 메서드
-	void removeDups() {
-
-		Node n = header;
-
-		while (n != null && n.next != null) {
-
-			Node r = n;
-
-			// 마지막 노드값까지 가지 않는다.
-			while (r.next != null) {
-
-				if (n.data == r.next.data) {
-
-					r.next = r.next.next;
-
-				} else {
-
-					r = r.next;
-
-				}
-
-			}
-
-			n = n.next;
-
-		}
-
-	}// removeDups 종료
-
-	// kthToLast: 뒤에서부터 k번째 데이터 찾는 메서드
-	// k: 뒤에서부터 k번째
-	Node kthToLast(Node first, int k) {
-		Node p1 = first;
-		Node p2 = first;
-
-		for (int i = 0; i < k; i++) {
-			if (p1 == null) {
-				return null;
-			}
-			p1 = p1.next;
-		}
-
-		while (p1 != null) {
-			p1 = p1.next;
-			p2 = p2.next;
-		}
-
-		return p2;
-
-	}// kthToLast 종료
-
 	
 	// get 메서드
 	Node get(int i) {
