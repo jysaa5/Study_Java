@@ -2,7 +2,7 @@ package graph.bfs;
 
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
-import java.util.Stack;
+
 // BFS: Breadth-First Search
 // 레벨로 탐색하는 방법이다. 
 // Queue를 이용해서 구현한다.
