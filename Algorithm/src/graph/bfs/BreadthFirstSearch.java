@@ -32,7 +32,7 @@ class Queue<T> {
 	// 맨 마지막 노드
 	private Node<T> last;
 
-	// enqueue 메서드: 데이터 추가
+	// enqueue 메서드: 데이터 추가하는 기능
 	public void enqueue(T item) {
 	
 		// 노드 생성
@@ -58,7 +58,7 @@ class Queue<T> {
 	}// enqueue 메서드 종료
 
 	
-	//dequeue 메서드
+	//dequeue 메서드: 큐에 있는 데이터를 제거하는 기능
 	public T dequeue() {
 		
 		// 큐가 비어 있을 때
@@ -86,7 +86,7 @@ class Queue<T> {
 	}// dequeue 메서드 종료
 
 	
-	// peek 메서드
+	// peek 메서드: 큐에 있는 거 보는 기능
 	public T peek() {
 		
 		//큐가 비어 있을 때
@@ -101,7 +101,7 @@ class Queue<T> {
 	}// peek 메서드 종료
 
 	
-	// isEmpty 메서드
+	// isEmpty 메서드: 큐가 비었는지 확인하는 기능
 	public boolean isEmpty() {
 	
 		return first == null;
@@ -127,9 +127,11 @@ class Graph{
 		
 		//생성자
 		Node (int data){
+			
 			this.data = data;
 			this.marked = false;
 			adjacent = new LinkedList<Node>();
+
 		}
 		
 	}
@@ -171,18 +173,23 @@ class Graph{
 	
 	// visit 메서드: 데이터 출력 메서드
 	void visit(Node n) {
+		
 		System.out.print(n.data + " ");
+	
 	}// visit 메서드 종료
 	
 	
-	// bfs 메서드: 0 번째 노드에서부터 검색
+	// bfs 메서드: 0 번째 노드에서부터 검색. 인덱스를 선택 안했을 때.
 	void bfs() {
+		
 		bfs(0);
+	
 	}
 	
 	
 	// bfs 메서드: 해당 인덱스 노드부터 검색
 	void bfs(int index) {
+		
 		Node root = nodes[index];
 		
 		//큐 생성
@@ -195,10 +202,14 @@ class Graph{
 		while(!queue.isEmpty()) {
 			
 			Node r = queue.dequeue();
+			
 			for(Node n : r.adjacent) {
+			
 				if(n.marked == false) {
+				
 					n.marked = true;
 					queue.enqueue(n);
+				
 				}
 				
 			}
@@ -242,8 +253,10 @@ class Graph{
  * 
  * */
 
-
+//BreadthFirstSearch 클래스 
 public class BreadthFirstSearch {
+	
+	//main 메서드 
 	public static void main(String[] args) {
 		
 		Graph g = new Graph(9);
@@ -259,5 +272,6 @@ public class BreadthFirstSearch {
 		g.addEdge(6, 8);
 		g.bfs();
 		
-	}
-}
+	}//main 메서드 종료
+
+}//BreadthFirstSearch 클래스 종료

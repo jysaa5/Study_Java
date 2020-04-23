@@ -37,7 +37,7 @@ class Queue<T> {
 	// 맨 마지막 노드
 	private Node<T> last;
 
-	// enqueue 메서드: 데이터 추가
+	// enqueue 메서드: 데이터 추가하는 기능
 	public void enqueue(T item) {
 	
 		// 노드 생성
@@ -63,7 +63,7 @@ class Queue<T> {
 	}// enqueue 메서드 종료
 
 	
-	//dequeue 메서드
+	//dequeue 메서드: 큐에 있는 데이터를 제거하는 기능
 	public T dequeue() {
 		
 		// 큐가 비어 있을 때
@@ -91,7 +91,7 @@ class Queue<T> {
 	}// dequeue 메서드 종료
 
 	
-	// peek 메서드
+	// peek 메서드: 큐에 있는 거 보는 기능
 	public T peek() {
 		
 		//큐가 비어 있을 때
@@ -111,14 +111,15 @@ class Queue<T> {
 	
 		return first == null;
 
-	}//isEmpty 메서드 종료
+	}// isEmpty 메서드 종료
 
-}//Queue 클래스 종료
+}// Queue 클래스 종료
 
 
-//Graph 클래스
+// Graph 클래스
 class Graph{
 	
+	// Node 클래스
 	class Node{
 		
 		//데이터는 정수로
@@ -137,7 +138,7 @@ class Graph{
 			adjacent = new LinkedList<Node>();
 		}
 		
-	}
+	}// Node 클래스 종료
 
 	//노드 저장 배열 
 	Node [] nodes;
@@ -170,6 +171,7 @@ class Graph{
 		if(!n2.adjacent.contains(n1)) {
 			n2.adjacent.add(n1);
 		}
+		
 	}//addEdge 메서드 종료
 	
 	
@@ -177,7 +179,8 @@ class Graph{
 	void dfs() {
 		
 		dfs(0);
-	}
+		
+	}//dfs 메서드 종료
 	
 	// dfs 메서드: 시작 인덱스를 받아서 DFS 순회 결과를 출력하는 메서드
 	void dfs(int index) {
@@ -204,8 +207,10 @@ class Graph{
 					stack.push(n);
 				}
 			}
+			
 			visit(r);
 		}
+	
 	}//dfs 메서드 종료
 	
 	
@@ -225,11 +230,15 @@ class Graph{
 		}
 		
 		r.marked = true;
+		
 		visit(r);
 		
 		for(Node n : r.adjacent) {
+			
 			if(n.marked == false) {
+			
 				dfsR(n);
+		
 			}
 			
 		}
@@ -239,18 +248,23 @@ class Graph{
 	
 	// dfsR: 해당 인덱스 노드부터 DFS -> 재귀호출 방법으로 
 	void dfsR(int index) {
+		
 		Node r = nodes[index];
+		
 		dfsR(r);
-	}
+	
+	}// dfsR 메서드 종료
 	
 	
 	// dfsR: 0 인덱스 노드부터 DFS -> 재귀호출 방법으로 
 	void dfsR() {
+		
 		dfsR(0);
-	}
+		
+	}// dfsR 메서드 종료
 	
 	
-}//Graph 클래스 종료
+}// Graph 클래스 종료
 
 /*
  *   0
@@ -284,9 +298,10 @@ class Graph{
  * 
  * */
 
-
+//DepthFirstSearch 클래스
 public class DepthFirstSearch {
 	
+	//main 메서드
 	public static void main(String[] args) {
 		
 		Graph g = new Graph(9);
@@ -302,6 +317,6 @@ public class DepthFirstSearch {
 		g.addEdge(6, 8);
 		g.dfs();
 		
-	}
+	}//main 메서드 종료
 
-}
+}//DepthFirstSearch 클래스 종룐
