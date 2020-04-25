@@ -41,6 +41,7 @@ class Tree{
 		
 	}
 	
+	
 	//makeBST 메서드: 이진 트리 만들어 주는 메서드 
 	Node makeBST(int start, int end) {
 		
@@ -56,6 +57,7 @@ class Tree{
 		
 	}//makeBST 메서드 종료
 	
+	
 	// Solution1 
 	// 초기값 설정 메서드
 	ArrayList<LinkedList<Node>> BSTtoList(){
@@ -65,7 +67,8 @@ class Tree{
 		// 재귀 호출: 이진트리의 루트, 결과 값을 담을 배열방, 레벨 0
 		BSTtoList(root, lists, 0);
 		return lists;
-	}
+		
+	}// BSTtoList 메서드 종료
 	
 	// 재귀함수
 	// 루트, 저장할 배열, 레벨을 인자로 받음.
@@ -97,7 +100,7 @@ class Tree{
 		BSTtoList(root.right, lists, level+1);
 		
 		
-	}
+	}//BSTtoList 메서드 종료
 	
 	
 	// Solution2
@@ -137,7 +140,7 @@ class Tree{
 		// 모든 자식들을 추가하면 결과 방 반환
 		return result;
 	
-	}
+	}//BSTtoList2 메서드 종료
 	
 	
 	// 결과 출력 메서드
@@ -148,12 +151,9 @@ class Tree{
 			}
 			System.out.println();
 		}
-	}
-
+	}//printList 메서드 종료
 	
-	
-	
-}
+}// Tree 클래스 종료
 
 /*
  *       (4)
@@ -179,7 +179,8 @@ public class BinaryTree_alg_list_Imp {
 		
 		// Solution 2: 부모 레벨의 자식 노드를 저장하는 방법
 		t.printList(t.BSTtoList2());
-	}
+		
+	}//main 메서드 종료
 
 	
 }// BinaryTree_alg_list_Imp 클래스 종료
