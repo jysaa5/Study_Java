@@ -1,4 +1,4 @@
-package tree.binaryTree.alg;
+package tree.binaryTree.alg.array;
 
 // 문제: 정렬이 되어 있고, 고유한 정수로만 이루어진 배열이 있다. 이 배열로 이진검색트리를 구현하시오.
 // 배열: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
