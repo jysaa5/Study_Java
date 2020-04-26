@@ -35,7 +35,7 @@ class Tree{
 	
 	Node root;
 	
-	//생성다 
+	//생성자
 	Tree (int size){
 		root = makeBST(0, size-1);
 		
@@ -175,7 +175,7 @@ public class BinaryTree_alg_list_Imp {
 		Tree t = new Tree(10);
 		
 		// Solution 1: 재귀 호출을 이용한 방법
-		t.printList(t.BSTtoList());
+		//t.printList(t.BSTtoList());
 		
 		// Solution 2: 부모 레벨의 자식 노드를 저장하는 방법
 		t.printList(t.BSTtoList2());
