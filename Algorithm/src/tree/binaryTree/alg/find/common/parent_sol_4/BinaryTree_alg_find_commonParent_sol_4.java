@@ -1,9 +1,9 @@
-package tree.binaryTree.alg.find.common.parent_sol_1;
+package tree.binaryTree.alg.find.common.parent_sol_4;
 
 import java.util.HashMap;
 
 // 문제: 이진 트리에서 주어진 두 개의 노드의 첫 번째 공통된 부모 노드를 찾으시오. (단, 다른 자료구조는 사용 금지)
-// Solution 1: 길이 맞추서 풀기
+// Solution 4: 최적화 시키기 -> postorder로 모든 노드들을 한 번씩만 돌면서 반환받은 왼쪽과 오른쪽 노드를 보는 순간 판단.
 
 /*
  *            (4)
@@ -24,12 +24,7 @@ import java.util.HashMap;
  *
  * */
 
-// Solution 1 
-// 1. 루트에서 두 노드 길이를 젠다. 
-// 2. 두 노드 간의 길이를 맞춘다. 긴 노드가 노드 차만큼 위로 올라간다.
-// 3. 한 칸씩 같이 올라가면서 공통 분모 확인
-// 시간 복잡도: O (d)
-// d: 트리의 길이
+// postorder : L, R, root
 
 // Tree 클래스
 class Tree{
@@ -88,7 +83,7 @@ class Tree{
 		return rootMap.get(data);
 	
 	}// getNode 메서드 종료
-	
+
 	
 	// commonAncestor 메서드: 공통 부모 찾는 메서드
 	Node commonAncestor(int d1, int d2) {
@@ -96,54 +91,52 @@ class Tree{
 		Node p = getNode(d1);
 		Node q = getNode(d2);
 		
-		// 길이 차이
-		int diff = depth(p) - depth(q);
-		
-		// first: 짧은 것, second: 긴 것
-		Node first = diff > 0? q : p;
-		Node second = diff > 0? p : q;
-		
-		// goUpBy 메서드를 이용해서 first와 second 노드의 길이를 같게 맞춘다.
-		second = goUpBy(second, Math.abs(diff));
-		
-		// 두 노드를 올라가면서 공통 부모 노드를 찾는다.
-		while(first != second && first != null && second != null) {
-			first = first.parent;
-			second = second.parent;
-					
-		}
-		
-		return first == null || second == null ? null : first;
+		return commonAncestor(root, p, q);
 		
 	}// commonAncestor 메서드 종료
 	
-	
-	// goUpBy 메서드: 두 노드의 길이 차이 만큼 긴 쪽을 올려서 둔 노드의 길이를 맞춰준다.
-	Node goUpBy(Node node, int diff) {
+	// commonAncestor 메서드: 재귀 호출
+	Node commonAncestor (Node root, Node p, Node q) {
 		
-		// diff 숫자 만큼 노드를 위로 올려 보낸다.
-		while(diff > 0 && node != null) {
-			node = node.parent;
-			diff --;
+		// 트리의 잎파리 노드까지 왔을 때 (맨 밑으로 내려 왔을 때)
+		if(root == null ) {
+			return null;
 		}
 		
-		return node;
-		
-	}// goUpBy 메서드 종료
-	
-	
-	// depth: 노드에서부터 루트(root)까지 길이 구하는 메서드
-	int depth(Node node) {
-		int depth = 0;
-		
-		while(node != null) {
-			node = node.parent;
-			depth++;
+		// p와 q와 root가 다 같으면 해당 노드가 공통 노드가 된다.
+		if(root == p && root == q) {
+			return root;
 		}
 		
-		return depth;
-	
-	}// depth 메서드 종료
+		// 루트의 왼쪽 검색
+		Node x = commonAncestor(root.left, p , q);
+		
+		// 왼쪽에서 공통 부모를 찾은 경우
+		if(x != null && x != p && x != q) {
+			return x;
+		}
+		
+		// 루트의 오른쪽 검색
+		Node y = commonAncestor(root.right, p, q);
+		
+		// 오른쪽에서 공통 부모를 찾은 경우
+		if(y != null && y !=p && y != q) {
+			return y;
+		}
+		
+		// 찾은 노드를 모두 찾은 경우 = 현재 노드가 공통 부모
+		if(x != null && y !=null) {
+			return root;
+			
+			// 현재 노드가 찾은 노드인 경우
+		}else if (root == p || root == q) {
+			return root;
+		}else {
+			// null이 아닌 노드를 반환한다.
+			return x == null ? y : x;
+		}
+		
+	}
 	
 	
 }// Tree 클래스 종료
@@ -163,16 +156,16 @@ class Tree{
  *
  * */
 
-// BinaryTree_alg_find_commonParent_sol_1 클래스
-public class BinaryTree_alg_find_commonParent_sol_1 {
+// BinaryTree_alg_find_commonParent_sol_3 클래스
+public class BinaryTree_alg_find_commonParent_sol_4 {
 
 	// main 메서드
 	public static void main(String[] args) {
 		
 		Tree t = new Tree(10);
-		Tree.Node fa = t.commonAncestor(3, 5);
+		Tree.Node fa = t.commonAncestor(5, 8);
 		System.out.println( "The first common ancestor is " + fa.data);
 		
 	}// main 메서드 종료
 	
-}// BinaryTree_alg_find_commonParent_sol_1 클래스 종료
+}// BinaryTree_alg_find_commonParent_sol_3 클래스 종료

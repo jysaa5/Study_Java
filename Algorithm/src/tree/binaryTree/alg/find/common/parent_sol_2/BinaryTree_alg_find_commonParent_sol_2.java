@@ -164,34 +164,6 @@ class Tree{
 	}// getSibling 메서드 종료
 	
 	
-	// goUpBy 메서드: 두 노드의 길이 차이 만큼 긴 쪽을 올려서 둔 노드의 길이를 맞춰준다.
-	Node goUpBy(Node node, int diff) {
-		
-		// diff 숫자 만큼 노드를 위로 올려 보낸다.
-		while(diff > 0 && node != null) {
-			node = node.parent;
-			diff --;
-		}
-		
-		return node;
-		
-	}// goUpBy 메서드 종료
-	
-	
-	// depth: 노드에서부터 루트(root)까지 길이 구하는 메서드
-	int depth(Node node) {
-		int depth = 0;
-		
-		while(node != null) {
-			node = node.parent;
-			depth++;
-		}
-		
-		return depth;
-	
-	}// depth 메서드 종료
-	
-	
 }// Tree 클래스 종료
 
 
@@ -209,7 +181,7 @@ class Tree{
  *
  * */
 
-
+// BinaryTree_alg_find_commonParent_sol_2 클래스
 public class BinaryTree_alg_find_commonParent_sol_2 {
 
 	// main 메서드
@@ -219,6 +191,6 @@ public class BinaryTree_alg_find_commonParent_sol_2 {
 		Tree.Node fa = t.commonAncestor(0, 3);
 		System.out.println( "The first common ancestor is " + fa.data);
 		
-	}// main 메서드
+	}// main 메서드 종료
 	
-}
+}// BinaryTree_alg_find_commonParent_sol_2 클래스 종료
