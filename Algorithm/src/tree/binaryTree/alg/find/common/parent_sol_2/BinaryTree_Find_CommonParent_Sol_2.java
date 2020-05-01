@@ -181,8 +181,8 @@ class Tree{
  *
  * */
 
-// BinaryTree_alg_find_commonParent_sol_2 클래스
-public class BinaryTree_alg_find_commonParent_sol_2 {
+// BinaryTree_Find_CommonParent_Sol_2 클래스
+public class BinaryTree_Find_CommonParent_Sol_2 {
 
 	// main 메서드
 	public static void main(String[] args) {
@@ -193,4 +193,4 @@ public class BinaryTree_alg_find_commonParent_sol_2 {
 		
 	}// main 메서드 종료
 	
-}// BinaryTree_alg_find_commonParent_sol_2 클래스 종료
+}// BinaryTree_Find_CommonParent_Sol_2 클래스 종료

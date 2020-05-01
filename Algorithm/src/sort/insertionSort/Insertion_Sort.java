@@ -1,6 +1,6 @@
 package sort.insertionSort;
 
-//재귀를 이용한 삽입 정렬
+//Insertion_Sort 클래스: 재귀를 이용한 삽입 정렬
 public class Insertion_Sort {
 
 	

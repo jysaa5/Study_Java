@@ -176,8 +176,8 @@ class Tree{
 }// Tree 클래스 종료
 
 
-// BinaryTree_alg_check_sol_2 클래스
-public class BinaryTree_alg_check_sol_2 {
+// BinaryTree_Check_Sol_2 클래스
+public class BinaryTree_Check_Sol_2 {
 
 	// main 메서드
 	public static void main(String[] args) {
@@ -191,4 +191,4 @@ public class BinaryTree_alg_check_sol_2 {
 	}// main 메서드 종료
 	
 	
-}// BinaryTree_alg_check_sol_2 클래스 종료
+}// BinaryTree_Check_Sol_2 클래스 종료

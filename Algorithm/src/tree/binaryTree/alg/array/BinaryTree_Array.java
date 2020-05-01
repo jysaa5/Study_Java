@@ -99,7 +99,7 @@ class Tree {
  * */
 
 //BinaryTree_alg_array_Imp Å¬·¡½º
-public class BinaryTree_alg_array_Imp {
+public class BinaryTree_Array {
 	
 	public static void main(String[] args) {
 		

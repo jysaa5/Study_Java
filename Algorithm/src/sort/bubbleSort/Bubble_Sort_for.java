@@ -1,7 +1,7 @@
 package sort.bubbleSort;
 
-//for문을 이용한 버블정렬 구현
-public class Bubble_Sort_for {
+//Bubble_Sort_For 클래스: for문을 이용한 버블정렬 구현
+public class Bubble_Sort_For {
 
 	//bubbleSort: for문 이용한 메서드 
 	private static void bubbleSort(int[] arr) {
@@ -49,4 +49,4 @@ public class Bubble_Sort_for {
 		
 	}//main 종료
 	
-}//Bubble_Sort_for 종료
+}//Bubble_Sort_For 종료

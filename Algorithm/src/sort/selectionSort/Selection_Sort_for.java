@@ -1,9 +1,9 @@
 package sort.selectionSort;
 
-//for문을 이용한 선택정렬
-public class Selection_Sort_for {
+// Selection_Sort_For 클래스: for문을 이용한 선택정렬
+public class Selection_Sort_For {
 	
-	//selectionSort: 선택정렬
+	// selectionSort: 선택정렬
 	private static void selectionSort(int[] arr) {
 		
 		int tmp = 0;
@@ -20,10 +20,10 @@ public class Selection_Sort_for {
 			}
 			}	
 		}	
-	}//selectionSort 종료
+	}// selectionSort 종료
 	
 	
-	//printArray: 배열을 출력하는 메서드
+	// printArray: 배열을 출력하는 메서드
 	private static void printArray(int[] arr) {
 		
 		for(int data: arr) {
@@ -34,7 +34,7 @@ public class Selection_Sort_for {
 	
 		System.out.println();
 	
-	}//printArray 종료
+	}// printArray 종료
 	
 	    //main: 메인 실행 메서드
 		public static void main(String[] args) {
@@ -47,6 +47,6 @@ public class Selection_Sort_for {
 			selectionSort(arr);
 			printArray(arr);
 			
-		}//main 종료
+		}// main 종료
 
-}//Selection_Sort_for 종료
+}// Selection_Sort_For 종료

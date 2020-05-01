@@ -1,9 +1,9 @@
-package tree.binaryTree.alg.find.common.parent_sol_3;
+package tree.binaryTree.alg.find.common.parent_sol_4;
 
 import java.util.HashMap;
 
 // 문제: 이진 트리에서 주어진 두 개의 노드의 첫 번째 공통된 부모 노드를 찾으시오. (단, 다른 자료구조는 사용 금지)
-// Solution 3: 부모 노드를 알 수 없는 경우
+// Solution 4: 최적화 시키기 -> postorder로 모든 노드들을 한 번씩만 돌면서 반환받은 왼쪽과 오른쪽 노드를 보는 순간 판단.
 
 /*
  *            (4)
@@ -24,12 +24,7 @@ import java.util.HashMap;
  *
  * */
 
-// Solution 3
-// 1. 루트에서부터 내려오면서 찾는 노드 p, q를 찾는다.
-// 2. 루트의 왼쪽 서브 트리에 있는지 오른쪽 서브 트리에 있는지 확인
-// 3. 내려가면서 확인.
-// t: 서브 트리의 개수
-// 시간 복잡도: O(log n)^2 = O(n)
+// postorder : L, R, root
 
 // Tree 클래스
 class Tree{
@@ -88,25 +83,7 @@ class Tree{
 		return rootMap.get(data);
 	
 	}// getNode 메서드 종료
-	
-	
-	// covers 메서드: 인자로 받은 노드가 루트의 자손인지 확인하는 메서드
-	boolean covers(Node root, Node node) {
-		
-		if(root == null) {
-			return false;
-		}
-		
-		if(root == node) {
-			return true;
-		}
-		
-		return covers(root.left, node) || covers(root.right, node);
-		
-	}// covers 메서드 종료
-	
-	
-	
+
 	
 	// commonAncestor 메서드: 공통 부모 찾는 메서드
 	Node commonAncestor(int d1, int d2) {
@@ -114,39 +91,53 @@ class Tree{
 		Node p = getNode(d1);
 		Node q = getNode(d2);
 		
-		// 가장 먼저 root에서 p와 q가 있는 지 존재 여부 확인
-		if (!covers(root, p)|| !covers(root, q)) {
-			
-			return null;
-			
-		}
-		
-		return ancestorHepler(root, p, q);
+		return commonAncestor(root, p, q);
 		
 	}// commonAncestor 메서드 종료
 	
+	// commonAncestor 메서드: 재귀 호출
+	Node commonAncestor (Node root, Node p, Node q) {
+		
+		// 트리의 잎파리 노드까지 왔을 때 (맨 밑으로 내려 왔을 때)
+		if(root == null ) {
+			return null;
+		}
+		
+		// p와 q와 root가 다 같으면 해당 노드가 공통 노드가 된다.
+		if(root == p && root == q) {
+			return root;
+		}
+		
+		// 루트의 왼쪽 검색
+		Node x = commonAncestor(root.left, p , q);
+		
+		// 왼쪽에서 공통 부모를 찾은 경우
+		if(x != null && x != p && x != q) {
+			return x;
+		}
+		
+		// 루트의 오른쪽 검색
+		Node y = commonAncestor(root.right, p, q);
+		
+		// 오른쪽에서 공통 부모를 찾은 경우
+		if(y != null && y !=p && y != q) {
+			return y;
+		}
+		
+		// 찾은 노드를 모두 찾은 경우 = 현재 노드가 공통 부모
+		if(x != null && y !=null) {
+			return root;
+			
+			// 현재 노드가 찾은 노드인 경우
+		}else if (root == p || root == q) {
+			return root;
+		}else {
+			// null이 아닌 노드를 반환한다.
+			return x == null ? y : x;
+		}
+		
+	}
 	
-	// ancestorHepler 메서드 
-	Node ancestorHepler(Node root, Node p, Node q) {
-		
-		if(root == null || root == p || root == q) {
-			return root;
-		}
-		
-		boolean pIsOnLeft = covers(root.left, p);
-		boolean qIsOnLeft = covers(root.left, q);
-		
-		// 둘이 다른 방향에 있다면 그때 갈라지는 곳이 같은 부모이다.
-		if(pIsOnLeft != qIsOnLeft) {
-			return root;
-		}
-		
-		// 위에서 둘이 같은 곳에 있을 때, 왼쪽에 있는지 오른쪽에 있는지 확인
-		Node childSide = pIsOnLeft? root.left : root.right;
-		
-		return ancestorHepler(childSide, p, q);
-	}// ancestorHepler 메서드 종료
-
 	
 }// Tree 클래스 종료
 
@@ -165,16 +156,16 @@ class Tree{
  *
  * */
 
-// BinaryTree_alg_find_commonParent_sol_3 클래스
-public class BinaryTree_alg_find_commonParent_sol_3 {
+// BinaryTree_Find_CommonParent_Sol_4 클래스
+public class BinaryTree_Find_CommonParent_Sol_4 {
 
 	// main 메서드
 	public static void main(String[] args) {
 		
 		Tree t = new Tree(10);
-		Tree.Node fa = t.commonAncestor(2, 8);
+		Tree.Node fa = t.commonAncestor(5, 8);
 		System.out.println( "The first common ancestor is " + fa.data);
 		
 	}// main 메서드 종료
 	
-}// BinaryTree_alg_find_commonParent_sol_3 클래스 종료
+}// BinaryTree_Find_CommonParent_Sol_4 클래스 종료

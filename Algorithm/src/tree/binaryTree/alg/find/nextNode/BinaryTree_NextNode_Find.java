@@ -121,8 +121,8 @@ class Tree{
  *       
  * */
 
-// BinaryTree_alg_nextNode_find 클래스 
-public class BinaryTree_alg_nextNode_find {
+// BinaryTree_NextNode_Find 클래스 
+public class BinaryTree_NextNode_Find {
 	
 	// main 메서드
 	public static void main(String[] args) {
@@ -138,4 +138,4 @@ public class BinaryTree_alg_nextNode_find {
 		
 	}// main 메서드 종료
 
-}// BinaryTree_alg_nextNode_find 클래스 종료
+}// BinaryTree_NextNode_Find 클래스 종료

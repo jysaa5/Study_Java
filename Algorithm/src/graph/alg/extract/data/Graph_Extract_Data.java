@@ -222,8 +222,8 @@ class ProjectManager{
 	
 }
 
-// Graph_alg_Extract_Data_Imp 클래스
-public class Graph_alg_Extract_Data_Imp {
+// Graph_Extract_Data 클래스
+public class Graph_Extract_Data {
 	
 	// main: 메인 실행 함수 
 	public static void main(String[] args) {
@@ -246,4 +246,4 @@ public class Graph_alg_Extract_Data_Imp {
 	}// main 메서드 종료
 	
 	
-}// Graph_alg_Extract_Data_Imp 클래스 종료
+}// Graph_Extract_Data 클래스 종료

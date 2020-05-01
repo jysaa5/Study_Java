@@ -24,7 +24,8 @@ class Graph {
 			this.marked = false;
 			this.adjacent = new LinkedList<Node>();
 		}
-	}
+		
+	}// Node 클래스 종료
 
 	// 노드를 관리할 배열방 선언
 	Node[] nodes;
@@ -121,7 +122,7 @@ class Graph {
 		
 	}//search 메서드 종료
 
-}
+}// Graph 클래스 종료
 
 /*
  *   0
@@ -134,9 +135,10 @@ class Graph {
  * */
 
 
-
-public class Graph_alg_Find_Path_Imp {
+// Graph_Find_Path 클래스 종료
+public class Graph_Find_Path {
 	
+	// main 메서드 
 	public static void main(String[] args) {
 		
 		Graph g = new Graph(9);
@@ -154,6 +156,6 @@ public class Graph_alg_Find_Path_Imp {
 		
 		System.out.println(g.search(1, 8));
 		
-	}
+	}// main 메서드 종료
 
-}
+}// Graph_Find_Path 클래스 종료

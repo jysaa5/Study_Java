@@ -1,6 +1,7 @@
 package sort.insertionSort;
 
-public class Insertion_Sort_while {
+//Insertion_Sort_While 클래스 
+public class Insertion_Sort_While {
 	
 	//insertionSort 메서드: 삽입 정렬
 	private static void insertionSort(int[] arr) {
@@ -50,4 +51,4 @@ public class Insertion_Sort_while {
 		
 		}//main 종료
 	
-}//Insertion_Sort_while 종료
+}//Insertion_Sort_While 종료

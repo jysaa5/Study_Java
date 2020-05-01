@@ -1,7 +1,7 @@
 package sort.insertionSort;
 
-//for문을 이용한 삽입정렬 
-public class Insertion_Sort_for {
+//Insertion_Sort_For 클래스: for문을 이용한 삽입정렬 
+public class Insertion_Sort_For {
 	
 	//insertionSort 메서드: 삽입 정렬 메서드
 	private static void insertionSort(int[] arr) {
@@ -47,4 +47,4 @@ public class Insertion_Sort_for {
 	
 	}//main 종료
 	
-}//Insertion_Sort_for 종료
+}//Insertion_Sort_For 종료

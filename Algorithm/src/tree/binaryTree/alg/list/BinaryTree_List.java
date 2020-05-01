@@ -168,8 +168,8 @@ class Tree{
  *       
  * */
 
-// BinaryTree_alg_list_Imp 클래스
-public class BinaryTree_alg_list_Imp {
+// BinaryTree_List 클래스
+public class BinaryTree_List {
 	
 	public static void main(String[] args) {
 		Tree t = new Tree(10);
@@ -183,4 +183,4 @@ public class BinaryTree_alg_list_Imp {
 	}//main 메서드 종료
 
 	
-}// BinaryTree_alg_list_Imp 클래스 종료
+}// BinaryTree_List 클래스 종료
