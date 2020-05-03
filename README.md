@@ -108,6 +108,11 @@
   </li>
     <li> 
         <h4>디자인 패턴 (Design Pattern)</h4> 
+     <ul>
+        <li>
+           <h5>Singleton Pattern</h5>
+        </li>
+       </ul>
      </li>
    <li>
     <h4>코딩 테스트 준비 (Prepare for coding test)</h4>
