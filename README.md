@@ -1,7 +1,7 @@
 # 1일 1커밋 (1 commit per day)
 <ul>
    <li>
-    <h4> 자바 공부 (Java Study)</h4>
+    <h3> 자바 공부 (Java Study)</h3>
     <ul>
       <li>
        <h5> <a href ="https://programmers.co.kr/">Programmers</a> : <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Beginning/src">
