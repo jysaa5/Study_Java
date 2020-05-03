@@ -102,25 +102,25 @@
                      <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/bubbleSort">Bubble Sort</a></h5>
                   </li>
                    <li>
-                     <h5>Counting Sort</h5>
+                      <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/countingSort">Counting Sort</a></h5>
                   </li>
                    <li>
-                     <h5>Heap Sort</h5>
+                     <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/heapSort">Heap Sort</a></h5>
                   </li>
                    <li>
-                     <h5>Insertion Sort</h5>
+                      <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/insertionSort">Insertion Sort</a></h5>
                   </li>
                    <li>
-                     <h5>Merge Sort</h5>
+                      <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/mergeSort">Merge Sort</a></h5>
                   </li>
                    <li>
-                     <h5>Quick Sort</h5>
+                      <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/quickSort">Quick Sort</a></h5>
                   </li>
                   <li>
-                     <h5>Radix Sort</h5>
+                     <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/radixSort">Radix Sort</a></h5>
                   </li>
                   <li>
-                     <h5>Selection Sort</h5>
+                     <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/selectionSort">Selection Sort</a></h5>
                   </li>
                </ul>
            </li>
