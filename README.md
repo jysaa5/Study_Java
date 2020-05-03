@@ -24,10 +24,15 @@
   </li>
      <li> 
         <h4>
-           <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/DataStructure">
             자료구조 (Data Structure)
-          </a>
         </h4> 
+        <ul>
+           <li>
+              <h5>
+                 List
+              </h5>
+           </li>
+        </ul>
       </li>
      <li>
        <h4> 
