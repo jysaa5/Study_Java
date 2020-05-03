@@ -16,11 +16,15 @@
   </li>
   <li>
     <h4>Java 공부</h4>
+    <ul>
+      <li>
     <h5> 
       <a href ="https://programmers.co.kr/">Programmers</a> : <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Beginning/src">
-    자바 초급 복습
+    자바 초급
     </a> 
     </h5>
+      </li>
+        </ul>
   </li>
   <li>
     <h5>
