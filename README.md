@@ -15,9 +15,10 @@
     </ul>
   </li>
   <li>
+    <h4>Java 공부</h4>
     <h5> 
-    <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Beginning/src">
-    두 번째 목표: 자바 초급 복습
+      <a href ="https://programmers.co.kr/">Programmers</a> : <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Beginning/src">
+    자바 초급 복습
     </a> 
     </h5>
   </li>
