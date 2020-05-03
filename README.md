@@ -1,39 +1,39 @@
-# 매일 1 코딩 1 커밋
+# 1일 1커밋 (1 commit per day)
 <ul>
   <li>
-    <h5> 
-    <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/CodeUp_basics100/src/com/violetCheese">
-    첫 번째 목표: CodeUp 기초 100문제 풀기 → 완료
-    </a> 
-    </h5>
-  </li>
-  <li>
-    <h5> 
-    <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Beginning/src">
-    두 번째 목표: 자바 초급 복습
-    </a> 
-    </h5>
-  </li>
-  <li>
-    <h5>
-      <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Intermediate/src">
-    세 번째 목표: 자바 중급 복습 
-    </a>
-    </h5>
-  </li>
-  <li> 
-    <h5>
-      <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src">
-    네 번째 목표: 자바 공부하면서 필요한 기능 직접 구현
-    </a>
-    </h5>
-    <ul> 
-      <li> 
-        <h6>
-          <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/dataType_ex">자료형 판별 클래스
-          </a>
-        </h6> 
+    <h4>코딩 테스트 준비</h4>
+ <ul>
+     <li>
+       <h5> <a href ="https://codeup.kr/">CodeUp</a>:<a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/CodeUp_basics100/src/com/violetCheese">
+    기초 100문제 풀기 (Java version) → 완료 </a> 
+       </h5>
+     </li>
+     <li>
+     <h5> <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Ex/src/com/violetCheese/programmers">Programmers: 코딩테스트 연습</a>
+    </h5> 
+    </li>
+ </ul>
+ </li>
+   <li>
+    <h4>Java 공부</h4>
+    <ul>
+      <li>
+       <h5> <a href ="https://programmers.co.kr/">Programmers</a> : <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Beginning/src">
+    자바 입문 </a> </h5>
       </li>
+      <li>
+        <h5> <a href ="https://programmers.co.kr/">Programmers</a> :
+    <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Intermediate/src">
+    자바 중급 </h5> </a>
+      </li>
+      <li> 
+        <h5>기능 구현</h5>
+          <ul>
+            <li>
+        <h5> <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/dataType_ex">자료형 판별 클래스 </a></h5>
+            </li>
+        </ul>
+  </li>
       <li> 
         <h6>
           <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/DataStructure">
@@ -44,21 +44,7 @@
       <li> 
         <h6>
           <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/designPattern_ex">
-            Design Pattern
-          </a>
-        </h6> 
-      </li>
-       <li> 
-        <h6>
-          <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/recursiveFunction_ex">
-            재귀
-          </a>
-        </h6> 
-      </li>
-      <li> 
-        <h6>
-          <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/sort_ex">
-            정렬
+           디자인 패턴 (Design Pattern)
           </a>
         </h6> 
       </li>
@@ -66,15 +52,7 @@
   </li>
      <li>
        <h5> 
-         <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Algorithm">다섯 번째 목표: 알고리즘
-         </a>
+         <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Algorithm">알고리즘</a>
        </h5> 
-  </li>
-  <li>
-    <h5>
-      <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Ex/src/com/violetCheese/programmers">
-        여섯 번째 목표: 프로그래머스 문제 풀기 
-      </a>
-    </h5> 
   </li>
 </ul>
