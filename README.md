@@ -50,7 +50,7 @@
        </h5>
      </li>
      <li>
-     <h5> <a href ="https://programmers.co.kr/">Programmers</a> :<a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Ex/src/com/violetCheese/programmers">코딩테스트 연습</a>
+     <h5> <a href ="https://programmers.co.kr/">Programmers</a> : <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Ex/src/com/violetCheese/programmers">코딩테스트 연습</a>
     </h5> 
     </li>
  </ul>
