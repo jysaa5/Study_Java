@@ -20,9 +20,14 @@
       <li>
     <h5> 
       <a href ="https://programmers.co.kr/">Programmers</a> : <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Beginning/src">
-    자바 초급
+    자바 입문
     </a> 
     </h5>
+      </li>
+      <li>
+    <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Intermediate/src">
+    자바 중급 
+    </a>
       </li>
         </ul>
   </li>
