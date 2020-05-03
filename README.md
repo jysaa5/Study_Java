@@ -30,19 +30,6 @@
             </li>
         </ul>
   </li>
-  <li> 
-    <h5>
-      <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src">
-    네 번째 목표: 자바 공부하면서 필요한 기능 직접 구현
-    </a>
-    </h5>
-    <ul> 
-      <li> 
-        <h6>
-          <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/dataType_ex">자료형 판별 클래스
-          </a>
-        </h6> 
-      </li>
       <li> 
         <h6>
           <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/DataStructure">
@@ -53,7 +40,7 @@
       <li> 
         <h6>
           <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/designPattern_ex">
-            Design Pattern
+           디자인 패턴 (Design Pattern)
           </a>
         </h6> 
       </li>
