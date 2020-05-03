@@ -64,6 +64,11 @@
            </li>
             <li>
               <h5>Tree</h5>
+               <ul>
+               <li>
+                  <h5>Binary Search Tree</h5>
+                  </li>
+               </ul>
            </li>
         </ul>
   </li>
