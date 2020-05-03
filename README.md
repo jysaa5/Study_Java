@@ -54,7 +54,7 @@
  </ul> 
   </li>
      <li> 
-        <h4>자료구조 (Data Structure)</h4> 
+        <h3>자료구조 (Data Structure)</h3> 
         <ul>
            <li>
               <h5>Hash Table</h5>
@@ -79,7 +79,7 @@
         </ul>
       </li>
      <li>
-       <h4>알고리즘 (Algorithm)</h4>
+       <h3>알고리즘 (Algorithm)</h3>
         <ul>
            <li>
               <h5>Graph</h5>
@@ -132,7 +132,7 @@
         </ul>
   </li>
     <li> 
-        <h4>디자인 패턴 (Design Pattern)</h4> 
+        <h3>디자인 패턴 (Design Pattern)</h3> 
      <ul>
         <li>
            <h5>Singleton Pattern</h5>
@@ -140,7 +140,7 @@
        </ul>
      </li>
    <li>
-    <h4>코딩 테스트 준비 (Prepare for coding test)</h4>
+    <h3>코딩 테스트 준비 (Prepare for coding test)</h3>
  <ul>
      <li>
        <h5> <a href ="https://codeup.kr/">CodeUp</a>:<a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/CodeUp_basics100/src/com/violetCheese">
