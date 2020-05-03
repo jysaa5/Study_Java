@@ -1,11 +1,16 @@
 # 1일 1커밋 (1 commit per day)
 <ul>
   <li>
-    <h5> 
+    <h4>
+      코딩테스트
+      </h4>
+    <ul>
+      <li>
     <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/CodeUp_basics100/src/com/violetCheese">
-    첫 번째 목표: CodeUp 기초 100문제 풀기 → 완료
+    CodeUp 기초 100문제 풀기 → 완료
     </a> 
-    </h5>
+      </li>
+    </ul>
   </li>
   <li>
     <h5> 
