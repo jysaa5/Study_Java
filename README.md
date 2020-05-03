@@ -33,10 +33,10 @@
                 <h5>정렬 (Sort)</h5>
                 <ul>
                    <li>
-                      <h5>오름차순 정수 정렬</h5>
+                      <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/blob/master/FunctionLibrary/src/sort_ex/Ex_Integer_SortAsc_01.java">오름차순 정수 정렬</a></h5>
                    </li>
                     <li>
-                      <h5>내림차순 정수 정렬</h5>
+                      <h5><a href ="https://github.com/jysaa5/VioletCheese_Study_Java/blob/master/FunctionLibrary/src/sort_ex/Ex_Integer_SortDes_02.java">내림차순 정수 정렬</a></h5>
                    </li>
                     <li>
                       <h5>배열의 최대값, 최소값 구하기: Solution1, Solution2</h5>
