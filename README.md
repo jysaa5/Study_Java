@@ -128,7 +128,7 @@
               <h5>Tree</h5>
                <ul>
                <li>
-                  <h5>Binary Search Tree</h5>
+                  <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/tree/binarySearchTree">Binary Search Tree</a></h5>
                   </li>
                </ul>
            </li>
@@ -138,7 +138,7 @@
         <h3>디자인 패턴 (Design Pattern)</h3> 
      <ul>
         <li>
-           <h5>Singleton Pattern</h5>
+           <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DesignPattern/src/singletonPattern">Singleton Pattern</a></h5>
         </li>
        </ul>
      </li>
