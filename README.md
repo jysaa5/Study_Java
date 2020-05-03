@@ -76,6 +76,18 @@
                    <li>
                      <h5>Counting Sort</h5>
                   </li>
+                   <li>
+                     <h5>Heap Sort</h5>
+                  </li>
+                   <li>
+                     <h5>Insertion Sort</h5>
+                  </li>
+                   <li>
+                     <h5>Merge Sort</h5>
+                  </li>
+                   <li>
+                     <h5>Quick Sort</h5>
+                  </li>
                </ul>
            </li>
             <li>
