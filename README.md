@@ -23,9 +23,7 @@
  </ul> 
   </li>
      <li> 
-        <h4>
-            자료구조 (Data Structure)
-        </h4> 
+        <h4>자료구조 (Data Structure)</h4> 
         <ul>
            <li>
               <h5>List</h5>
@@ -44,12 +42,13 @@
            <li>
               <h5>Stack</h5>
            </li>
+           <li>
+              <h5>Hash Table</h5>
+           </li>
         </ul>
       </li>
      <li>
-       <h4> 
-         알고리즘 (Algorithm)
-       </h4> 
+       <h4>알고리즘 (Algorithm)</h4> 
   </li>
     <li> 
         <h4>
