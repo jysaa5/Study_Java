@@ -32,6 +32,9 @@
         <h4>자료구조 (Data Structure)</h4> 
         <ul>
            <li>
+              <h5>Hash Table</h5>
+           </li>
+           <li>
               <h5>List</h5>
               <ul>
                  <li>
@@ -47,9 +50,6 @@
            </li>
            <li>
               <h5>Stack</h5>
-           </li>
-           <li>
-              <h5>Hash Table</h5>
            </li>
         </ul>
       </li>
