@@ -20,6 +20,14 @@
             </li>
              <li>
                <h5>재귀함수 (Recursive Function)</h5>
+                <ul>
+                   <li>
+                      <h5>피보나치 수열 (Fibonacci Numbers)</h5>
+                   </li>
+                    <li>
+                      <h5>팩토리얼 (Factorial)</h5>
+                   </li>
+                </ul>
              </li>
              <li>
                 <h5>정렬 (Sort)</h5>
