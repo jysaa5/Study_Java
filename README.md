@@ -33,14 +33,14 @@
               </h5>
               <ul>
                  <li>
-                    <h6>
+                    <h5>
                     Array List
-                    </h6>
+                    </h5>
                  </li>
                  <li>
-                    <h6>
+                    <h5>
                     Linked List
-                    </h6>
+                    </h5>
                  </li>
               </ul>
            </li>
