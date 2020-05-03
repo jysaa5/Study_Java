@@ -71,7 +71,10 @@
               <h5>Sort</h5>
                <ul>
                   <li>
-                     <h5></h5>
+                     <h5>Bubble Sort</h5>
+                  </li>
+                   <li>
+                     <h5>Counting Sort</h5>
                   </li>
                </ul>
            </li>
