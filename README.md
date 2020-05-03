@@ -13,7 +13,7 @@
     자바 중급 </h5> </a>
       </li>
       <li> 
-        <h5>기능 구현 (Function mplementation)</h5>
+        <h5>기능 구현 (Function Implementation)</h5>
           <ul>
             <li>
         <h5> <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/dataType_ex">자료형 판별 클래스 (Data Type Distinction Class)</a></h5>
