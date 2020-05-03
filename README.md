@@ -31,6 +31,14 @@
               <h5>
                  List
               </h5>
+              <ul>
+                 <li>
+                    Array List
+                 </li>
+                 <li>
+                    Linked List
+                 </li>
+              </ul>
            </li>
         </ul>
       </li>
