@@ -24,13 +24,6 @@
   </li>
      <li> 
         <h4>
-       <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/designPattern_ex">
-           디자인 패턴 (Design Pattern)
-          </a>
-        </h4> 
-     </li>
-     <li> 
-        <h4>
            <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/DataStructure">
             자료구조 (Data Structure)
           </a>
@@ -41,6 +34,13 @@
          알고리즘 (Algorithm)
        </h4> 
   </li>
+    <li> 
+        <h4>
+       <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/designPattern_ex">
+           디자인 패턴 (Design Pattern)
+          </a>
+        </h4> 
+     </li>
    <li>
     <h4>코딩 테스트 준비</h4>
  <ul>
