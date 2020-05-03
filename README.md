@@ -71,7 +71,7 @@
         <h4>디자인 패턴 (Design Pattern)</h4> 
      </li>
    <li>
-    <h4>코딩 테스트 준비</h4>
+    <h4>코딩 테스트 준비 (Prepare for coding test)</h4>
  <ul>
      <li>
        <h5> <a href ="https://codeup.kr/">CodeUp</a>:<a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/CodeUp_basics100/src/com/violetCheese">
