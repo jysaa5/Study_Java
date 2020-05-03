@@ -88,6 +88,12 @@
                    <li>
                      <h5>Quick Sort</h5>
                   </li>
+                  <li>
+                     <h5>Radix Sort</h5>
+                  </li>
+                  <li>
+                     <h5>Selection Sort</h5>
+                  </li>
                </ul>
            </li>
             <li>
