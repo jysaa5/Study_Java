@@ -8,6 +8,10 @@
     기초 100문제 풀기 (Java version) → 완료 </a> 
        </h5>
      </li>
+     <li>
+     <h5> <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Ex/src/com/violetCheese/programmers">Programmers  코딩테스트 연습</a>
+    </h5> 
+    </li>
  </ul>
  </li>
    <li>
@@ -44,33 +48,11 @@
           </a>
         </h6> 
       </li>
-       <li> 
-        <h6>
-          <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/recursiveFunction_ex">
-            재귀
-          </a>
-        </h6> 
-      </li>
-      <li> 
-        <h6>
-          <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/sort_ex">
-            정렬
-          </a>
-        </h6> 
-      </li>
     </ul> 
   </li>
      <li>
        <h5> 
-         <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Algorithm">다섯 번째 목표: 알고리즘
-         </a>
+         <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Algorithm">알고리즘</a>
        </h5> 
-  </li>
-  <li>
-    <h5>
-      <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Ex/src/com/violetCheese/programmers">
-        여섯 번째 목표: 프로그래머스 문제 풀기 
-      </a>
-    </h5> 
   </li>
 </ul>
