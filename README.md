@@ -39,7 +39,7 @@
                       <h5><a href ="https://github.com/jysaa5/VioletCheese_Study_Java/blob/master/FunctionLibrary/src/sort_ex/Ex_Integer_SortDes_02.java">내림차순 정수 정렬</a></h5>
                    </li>
                     <li>
-                      <h5>배열의 최대값, 최소값 구하기: Solution1, Solution2</h5>
+                       <h5>배열의 최대값, 최소값 구하기: <a href ="https://github.com/jysaa5/VioletCheese_Study_Java/blob/master/FunctionLibrary/src/sort_ex/Ex_Max_Min_01.java">Solution1</a>, <a href ="https://github.com/jysaa5/VioletCheese_Study_Java/blob/master/FunctionLibrary/src/sort_ex/Ex_Max_Min_02.java">Solution2</a></h5>
                    </li>
                    <li>
                       <h5>문자열 거꾸로 출력: Solution1, Solution2</h5>
