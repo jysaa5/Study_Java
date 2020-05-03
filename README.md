@@ -60,7 +60,10 @@
               <h5>Graph</h5>
               <ul>
                  <li>
-                    <h5>BFS(Breadth First Search)</h5>
+                    <h5>BFS (Breadth First Search)</h5>
+                 </li>
+                  <li>
+                    <h5>DFS (Depth First Search)</h5>
                  </li>
               </ul>
            </li>
