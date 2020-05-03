@@ -74,10 +74,10 @@
               </ul>
            </li>
            <li>
-              <h5>Queue</h5>
+              <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/Imp/queue">Queue</a></h5>
            </li>
            <li>
-              <h5>Stack</h5>
+              <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/Imp/stack">Stack</a></h5>
            </li>
         </ul>
       </li>
@@ -88,10 +88,10 @@
               <h5>Graph</h5>
               <ul>
                  <li>
-                    <h5>BFS (Breadth First Search)</h5>
+                    <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/graph/bfs">BFS (Breadth First Search)</a></h5>
                  </li>
                   <li>
-                    <h5>DFS (Depth First Search)</h5>
+                     <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/graph/dfs">DFS (Depth First Search)</a></h5>
                  </li>
               </ul>
            </li>
@@ -99,7 +99,7 @@
               <h5>Sort</h5>
                <ul>
                   <li>
-                     <h5>Bubble Sort</h5>
+                     <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/bubbleSort">Bubble Sort</a></h5>
                   </li>
                    <li>
                      <h5>Counting Sort</h5>
