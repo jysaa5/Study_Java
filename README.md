@@ -32,14 +32,13 @@
       </h5>
     </a>
       </li>
+       <li> 
+        <h5>
+          기능 구현 : <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/FunctionLibrary/src/dataType_ex">자료형 판별 클래스
+          </a>
+        </h5> 
+      </li>
         </ul>
-  </li>
-  <li>
-    <h5>
-      <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Intermediate/src">
-    세 번째 목표: 자바 중급 복습 
-    </a>
-    </h5>
   </li>
   <li> 
     <h5>
