@@ -59,6 +59,12 @@
            <li>
               <h5>Graph</h5>
            </li>
+            <li>
+              <h5>Sort</h5>
+           </li>
+            <li>
+              <h5>Tree</h5>
+           </li>
         </ul>
   </li>
     <li> 
