@@ -54,7 +54,12 @@
         </ul>
       </li>
      <li>
-       <h4>알고리즘 (Algorithm)</h4> 
+       <h4>알고리즘 (Algorithm)</h4>
+        <ul>
+           <li>
+              <h5>Graph</h5>
+           </li>
+        </ul>
   </li>
     <li> 
         <h4>디자인 패턴 (Design Pattern)</h4> 
