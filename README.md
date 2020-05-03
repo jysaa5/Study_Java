@@ -28,21 +28,21 @@
         </h4> 
         <ul>
            <li>
-              <h5>
-                 List
-              </h5>
+              <h5>List</h5>
               <ul>
                  <li>
-                    <h5>
-                    Array List
-                    </h5>
+                    <h5>ArrayList</h5>
                  </li>
                  <li>
-                    <h5>
-                    Linked List
-                    </h5>
+                    <h5>LinkedList</h5>
                  </li>
               </ul>
+           </li>
+           <li>
+              <h5>Queue</h5>
+           </li>
+           <li>
+              <h5>Stack</h5>
            </li>
         </ul>
       </li>
