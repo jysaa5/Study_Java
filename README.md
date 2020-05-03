@@ -58,6 +58,11 @@
         <ul>
            <li>
               <h5>Graph</h5>
+              <ul>
+                 <li>
+                    <h5>BFS(Breadth First Search)</h5>
+                 </li>
+              </ul>
            </li>
             <li>
               <h5>Sort</h5>
