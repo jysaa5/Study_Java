@@ -7,8 +7,8 @@
     <ul>
       <li>
         <h5>
-    <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/CodeUp_basics100/src/com/violetCheese">
-    CodeUp 기초 100문제 풀기 → 완료
+          <a href ="https://codeup.kr/">CodeUp</a>:<a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/CodeUp_basics100/src/com/violetCheese">
+    기초 100문제 풀기 → 완료
     </a> 
         </h5>
       </li>
