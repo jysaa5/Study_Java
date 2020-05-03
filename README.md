@@ -23,7 +23,7 @@
       <li> 
         <h6>
           <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/DataStructure">
-            자료구조
+            자료구조 (Data Structure)
           </a>
         </h6> 
       </li>
