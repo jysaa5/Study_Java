@@ -37,7 +37,7 @@ import java.util.HashMap;
  */
 
 // Solution 3: Hash맵을 사용하여 풀이해보자.
-
+// 시간복잡도: O(n)
 // Tree 클래스
 class Tree{
 	class Node{
