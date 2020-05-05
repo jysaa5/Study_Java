@@ -63,7 +63,7 @@
               <h5>List</h5>
               <ul>
                  <li>
-                    <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/Imp/list/arrayList">ArrayList</a></h5>
+                    <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/Imp/list/arrayList_01">ArrayList</a></h5>
                  </li>
                  <li>
                     <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/Imp/list/linkedList">LinkedList</a></h5>
