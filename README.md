@@ -48,6 +48,14 @@
                       <h5>문자열 내림차순 정렬(소문자 > 대문자): <a href="https://github.com/jysaa5/VioletCheese_Study_Java/blob/master/FunctionLibrary/src/sort_ex/Ex_String_SortDes_01.java">Solution1</a>, <a href="https://github.com/jysaa5/VioletCheese_Study_Java/blob/master/FunctionLibrary/src/sort_ex/Ex_String_SortDes_02.java">Solution2</a>, <a href="https://github.com/jysaa5/VioletCheese_Study_Java/blob/master/FunctionLibrary/src/sort_ex/Ex_String_SortDes_03.java">Solution3</a></h5>
                    </li>
                 </ul>
+                  <li>
+                <h5>문자열 (String)</h5>
+                <ul>
+                   <li>
+                      <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/FunctionLibrary/src/Imp/StringBuilder">StringBuilder</a></h5>
+                   </li>
+                     </ul>
+                   </li>
              </li>
         </ul>
   </li>
