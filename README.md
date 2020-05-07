@@ -52,7 +52,7 @@
                 <h5>문자열 (String)</h5>
                 <ul>
                    <li>
-                      <h5>StringBuilder 구현</h5>
+                      <h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/FunctionLibrary/src/Imp/StringBuilder">StringBuilder</a></h5>
                    </li>
                      </ul>
                    </li>
