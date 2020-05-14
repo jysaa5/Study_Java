@@ -137,7 +137,7 @@ public class Rotate_Matrix_Image {
 			System.out.println();
 		}
 		System.out.println();
-	}
+	}// printImage 메서드 종료
 	
 	// main 메서드 
 	public static void main(String[] args) {
