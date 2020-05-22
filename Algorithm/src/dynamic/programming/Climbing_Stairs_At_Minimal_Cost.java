@@ -21,7 +21,7 @@ package dynamic.programming;
 public class Climbing_Stairs_At_Minimal_Cost {
 
 	
-	// minCostClimbingStairs 메서든
+	// minCostClimbingStairs 메서드
 	public static int minCostClimbingStairs(int[] cost) {
 		int case1 = 0, case2 = 0, current;
 		
