@@ -13,17 +13,23 @@ package imp.bit.operation;
 - 최대값= (2^32) -1 = unsigned
 - signed = -(2^31) ~ (2^31) -1
 
-3) clear Left Bits
+3) logical right shift: >>>
+- 부호와 상관없이 모든 비트를 right shift하고 앞 부분을 0으로 세팅
+
+4) arithmetic right shift: >>
+- 부호에 상관있게 모든 비트를 right shift하고 앞 부분을 1로 세팅
+
+5) clear Left Bits
 1 0 0 0 = 1 << 3
 0 1 1 1 = 1 0 0 0 - 1 
 -> not을 하면 앞에 있는 비트들도 다 변하므로 1을 빼는 것이다.
 
-4) clear Right Bits
+6) clear Right Bits
 1111...1111 = -1
 1111...0000 = -1 << (3+1) 
 -> i번째부터 오른쪽에 있는 비트를 0으로 세팅해야 하므로 i+1 만큼 시프트 해야 된다.
 
-5) update Bit (비트를 업데이트)
+7) update Bit (비트를 업데이트)
 int num = 169;
 int i = 3;
 boolean val = true;
