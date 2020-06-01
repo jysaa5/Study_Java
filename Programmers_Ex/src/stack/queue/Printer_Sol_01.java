@@ -32,7 +32,7 @@ priorities         | location |	return
 // 인쇄 대기목록의 가장 앞에 있는 문서 = J, 중요도가 있는 프린터
 // 솔루션 1: queue 2개를 사용하자. (내가 푼 것.)
 
-class Solution {
+class Solution_Printer_01 {
 
 	public int solution(int[] priorities, int location) {
 		// 반환 값
@@ -118,7 +118,7 @@ public class Printer_Sol_01 {
 
 	public static void main(String[] args) {
 
-		Solution sol = new Solution();
+		Solution_Printer_01 sol = new Solution_Printer_01();
 
 		// int[] priorities = {2,1,3,2};
 		int[] priorities = { 1, 1, 9, 1, 1, 1 };

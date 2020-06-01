@@ -33,7 +33,7 @@ priorities         | location |	return
 // 인쇄 대기목록의 가장 앞에 있는 문서 = J, 중요도가 있는 프린터
 // 솔루션 2: 중요도를 순서대로 정렬 후, 그 정렬 순서에 맞춰서 큐에 순서를 확인한다. 
 
-class Solution_02 {
+class Solution_Sol_02 {
 	public int solution(int[] priorities, int location) {
 
 		int answer = 0;
@@ -91,7 +91,7 @@ class Solution_02 {
 public class Printer_Sol_02 {
 
 	public static void main(String[] args) {
-		Solution_02 sol = new Solution_02();
+		Solution_Sol_02 sol = new Solution_Sol_02();
 
 		// int[] priorities = {2,1,3,2};
 		int[] priorities = { 1, 1, 9, 1, 1, 1 };
