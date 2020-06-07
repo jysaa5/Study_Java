@@ -38,7 +38,7 @@ m |	n	| picture                                                                 
 */
 // 솔루션: BFS
 
-// 좌표를 저장할 Point 클래스
+// Point 클래스: 좌표를 저장
 class Point{
 	int x, y;
 	
@@ -50,20 +50,29 @@ class Point{
 
 class Solution {
 	
+	// visited: 방문 여부, picture: 그림 상태, start: 현재 지점의 좌표
 	public int BFS(boolean[][] visited, int[][] picture, Point start) {
 		
+		// 큐 선언 
 		Queue<Point> queue = new LinkedList<>();
+		
+		// (-1, 0), (1, 0), (0, 1), (0, -1)
+		// 왼쪽, 오른쪽, 위, 아래
 		int[] dx = {-1, 1, 0 , 0};
 		int[] dy = {0, 0, 1, -1};
 		int area = 1;
+		// 동서
 		int nx;
+		// 남북
 		int ny;
 		
 		visited[start.x][start.y] = true;
 		// queue에 추가
 		queue.offer(start);
 
+		// queue가 빌때까지 
 		while(!queue.isEmpty()) {
+			// queue에서 데이터를 꺼낸다.
 			Point cur = queue.poll();
 			
 			for(int i=0; i<4; i++) {
@@ -88,15 +97,20 @@ class Solution {
 	}
 
     public int[] solution(int m, int n, int[][] picture) {
-        int numberOfArea = 0;
-        int maxSizeOfOneArea = 0;
+        //int numberOfArea = 0;
+        //int maxSizeOfOneArea = 0;
 
         int[] answer = new int[2];
-        answer[0] = numberOfArea;
-        answer[1] = maxSizeOfOneArea;
+        // answer[0] = 영역의 총 갯수
+        // answer[1] = 최대 영역의 넓이
         
+        //answer[0] = numberOfArea;
+        //answer[1] = maxSizeOfOneArea;
+        
+        // 해당 지점을 방문했는지 여부를 체크
         boolean[][] visited = new boolean[m][n];
         
+        // visited 배열을 false로 초기화
         for(int i=0; i<m; i++) {
         	Arrays.fill(visited[i], false);
         }
@@ -104,9 +118,11 @@ class Solution {
         for(int x=0; x<m; x++) {
         	for(int y=0; y<n; y++) {
         		
+        		// 해당 지점을 방문한 적이 있거나, 해당 지점이 영역이 아닐때. -> 다른 지점을 확인
         		if(visited[x][y] || picture[x][y] == 0) {
         			continue;
         		}
+        		// 최대 영역으로 갱신
         		answer[1] = Math.max(answer[1], BFS(visited, picture, new Point(x,y)));
         		answer[0]++;
         	}
