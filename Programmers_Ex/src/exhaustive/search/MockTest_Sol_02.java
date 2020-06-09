@@ -2,7 +2,7 @@ package exhaustive.search;
 
 import java.util.ArrayList;
 
-// 문제: 모의고사
+//문제: 모의고사
 
 /*
 문제 설명
@@ -36,67 +36,53 @@ answers	    | return
 
 입출력 예 #2
 모든 사람이 2문제씩을 맞췄습니다.
- */
-// 솔루션: 완전 탐색
+*/
 
-class MokTest_Solution_01 {
+//솔루션: 완전 탐색
 
-	public int[] solution(int[] answers) {
-		int[] supoza1 = {1,2,3,4,5};
-		int[] supoza2 = {2,1,2,3,2,4,2,5};
-		int[] supoza3 = {3,3,1,1,2,2,4,4,5,5};
+class MokTest_Solution_02 {
+	
+	public int[] solution(int[] answer) {
 		
-		int[] cnt = new int[3];
+		int[] a = { 1, 2, 3, 4, 5 };
+		int[] b = { 2, 1, 2, 3, 2, 4, 2, 5 };
+		int[] c = { 3, 3, 1, 1, 2, 2, 4, 4, 5, 5 };
+		int[] score = new int[3];
 		
-		ArrayList<Integer> win = new ArrayList<Integer>();
-		
-		for(int i=0; i<answers.length; i++) {
-			if(answers[i] == supoza1[i%5]) {
-				cnt[0]++;
-			}
+		for (int i = 0; i < answer.length; i++) {
 			
-			if(answers[i] == supoza2[i%8]) {
-				cnt[1]++;
+			if (answer[i] == a[i % a.length]) {
+				score[0]++;
 			}
-			
-			if(answers[i]==supoza3[i%10]) {
-				cnt[2]++;
+			if (answer[i] == b[i % b.length]) {
+				score[1]++;
 			}
-		}
-		
-		int winner = cnt[0];
-		
-		for(int i=0; i<cnt.length;i++) {
-			if(winner<cnt[i]) {
-				winner = cnt[i];
+			if (answer[i] == c[i % c.length]) {
+				score[2]++;
 			}
 		}
 		
+		int maxScore = Math.max(score[0], Math.max(score[1], score[2]));
 		
-		for(int i=0; i<cnt.length; i++) {
-			if(winner == cnt[i]) {
-			win.add(i);	
-			}
+		ArrayList<Integer> list = new ArrayList<>();
+		
+		if (maxScore == score[0]) {
+			list.add(1);
+		}
+		if (maxScore == score[1]) {
+			list.add(2);
+		}
+		if (maxScore == score[2]) {
+			list.add(3);
 		}
 		
-		int[] answer = {};
-		
-		answer = new int[win.size()];
-		
-		for(int i=0; i<win.size(); i++) {
-			answer[i] = win.get(i)+1;
-		}
-		
-		return answer;
-
+		return list.stream().mapToInt(i -> i.intValue()).toArray();
 	}
-
 }
 
-public class MockTest_Sol_01 {
-
+public class MockTest_Sol_02 {
 	public static void main(String[] args) {
-		MokTest_Solution_01 sol = new MokTest_Solution_01();
+		MokTest_Solution_02 sol = new MokTest_Solution_02();
 		
 		//int[] answers = {1,2,3,4,5};
 		int[] answers = {1,3,2,4,2};
@@ -106,7 +92,6 @@ public class MockTest_Sol_01 {
 		for(int i: answer) {
 			System.out.println(i);
 		}
-		
 		
 	}
 }
