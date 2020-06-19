@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 // 순열
+// 중복을 허용한 코드
 // 솔루션: 재귀함수 + ArrayList
-public class Permutation_02 {
+public class Permutation_03 {
 
 	// nPr의 n
 	private int n;
@@ -17,7 +18,7 @@ public class Permutation_02 {
 
 	// 생성자
 	// 초기화
-	public Permutation_02(int[] intArr, int r) {
+	public Permutation_03(int[] intArr, int r) {
 
 		// nPr의 r
 		this.r = r;
@@ -49,12 +50,10 @@ public class Permutation_02 {
 		}
 		
 		for(int i=0; i<n-depth; i++) {
-			// 아이템 선택 + 리스트에서 제거
-			res[depth] = itemList.remove(i);
+
+			res[depth] = itemList.get(i);
 			// 재귀호출
 			perm(itemList, depth+1);
-			// 제거된 아이템 복원
-			itemList.add(i, res[depth]);
 		}
 		
 	}
@@ -64,7 +63,7 @@ public class Permutation_02 {
 		int r = 3;
 		int[] arr = {1,2,3,4,5};
 		
-		Permutation_02 main = new Permutation_02(arr, r);
+		Permutation_03 main = new Permutation_03(arr, r);
 		main.perm(0);
 	}
 }
