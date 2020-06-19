@@ -1,6 +1,7 @@
 package math.permutation;
 
 // 순열: n개 중에서 r개를 순서 있게 뽑기
+// 중복을 허용하지 않고 n개중에 r개 뽑기
 // 시간복잡도: O(n!)
 
 public class Permutation_01 {
