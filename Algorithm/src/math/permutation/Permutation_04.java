@@ -12,6 +12,7 @@ public class Permutation_04 {
 	
 	// nPr의 r
 	private int r;
+	// 결과값 배열
 	private int[] res;
 	
 	// 초기화 
@@ -19,12 +20,6 @@ public class Permutation_04 {
 		this.n = n;
 		this.r = r;
 		res = new int[r];
-	}
-	
-	public void swap(int[] arr, int i, int j) {
-		int temp = arr[i];
-		arr[i] = arr[j];
-		arr[j] = temp;
 	}
 	
 	public void perm(int[] arr, int depth) {
@@ -47,6 +42,12 @@ public class Permutation_04 {
 		}
 		
 		
+	}
+	
+	public void swap(int[] arr, int i, int j) {
+		int temp = arr[i];
+		arr[i] = arr[j];
+		arr[j] = temp;
 	}
 	
 	public static void main(String[] args) {

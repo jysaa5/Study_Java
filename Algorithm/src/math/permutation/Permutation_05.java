@@ -14,6 +14,7 @@ public class Permutation_05 {
 	private int[] res;
 	
 	// 초기화 
+	// 생성자
 	public Permutation_05(int n, int r) {
 		this.n = n;
 		this.r = r;
@@ -33,6 +34,7 @@ public class Permutation_05 {
 			return;
 		}
 		
+		//중복을 허용하기 때문에 0부터 시작
 		for(int i=0; i<n; i++) {
 			
 			// 스왑
