@@ -44,8 +44,11 @@ class Conver_Bracket_Solution_02 {
 
 	// 문자열 w의 옳은 문자열 여부 리턴
 	static boolean isCorrect(String w) {
+		
 		int count = 0;
+		
 		for (int i = 0; i < w.length(); i++) {
+			
 			if (w.charAt(i) == '(') {
 				count++;
 			} else
@@ -60,7 +63,9 @@ class Conver_Bracket_Solution_02 {
 	static String reverse(String w) {
 
 		StringBuffer ret = new StringBuffer();
+		
 		for (int i = 0; i < w.length(); i++) {
+			
 			if (w.charAt(i) == ')') {
 				ret.append('(');
 			} else
@@ -71,14 +76,14 @@ class Conver_Bracket_Solution_02 {
 }
 
 public class Conver_Bracket_Sol_02 {
+	
 	public static void main(String[] args) {
 
 		Conver_Bracket_Solution_02 sol = new Conver_Bracket_Solution_02();
 
 		 String p = ")(";
-//	String p = "()))((()";
-	//	String p = "(()())()";
-
+		 //	String p = "()))((()";
+		 //	String p = "(()())()";
 		// System.out.println(sol.balnceBracket(p));
 		System.out.println(sol.solution(p));
 	}
