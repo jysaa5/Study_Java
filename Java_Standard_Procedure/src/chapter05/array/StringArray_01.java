@@ -1,6 +1,7 @@
 package chapter05.array;
 
 public class StringArray_01 {
+	
 	public static void main(String[] args) {
 		String[] names = {"Kim", "Park", "Yi"};
 		

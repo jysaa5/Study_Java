@@ -1,6 +1,7 @@
 package chapter05.array;
 
 public class StringArray_02 {
+	
 	public static void main(String[] args) {
 		
 		char[] hex = {'C', 'A', 'F', 'E'};
