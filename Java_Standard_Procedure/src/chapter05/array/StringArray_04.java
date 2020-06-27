@@ -1,5 +1,6 @@
 package chapter05.array;
 
+// p.211
 public class StringArray_04 {
 	
 	public static void main(String[] args) {

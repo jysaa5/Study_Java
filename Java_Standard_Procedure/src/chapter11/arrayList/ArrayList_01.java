@@ -3,6 +3,7 @@ package chapter11.arrayList;
 import java.util.ArrayList;
 import java.util.Collections;
 
+// p.585
 public class ArrayList_01 {
 
 	static void print(ArrayList list1, ArrayList list2) {

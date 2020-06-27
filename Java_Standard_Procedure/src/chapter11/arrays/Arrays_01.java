@@ -2,7 +2,7 @@ package chapter11.arrays;
 
 import java.util.Arrays;
 
-// ÆäÀÌÁö: 626p
+// p.626
 public class Arrays_01 {
 
 	public static void main(String[] args) {

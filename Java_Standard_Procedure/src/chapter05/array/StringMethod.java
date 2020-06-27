@@ -1,5 +1,6 @@
 package chapter05.array;
 
+// 내가 만든 예제
 public class StringMethod {
 	
 	public static void main(String[] args) {

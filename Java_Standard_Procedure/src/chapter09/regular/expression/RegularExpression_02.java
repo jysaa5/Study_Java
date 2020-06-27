@@ -2,6 +2,7 @@ package chapter09.regular.expression;
 
 import java.util.regex.*;
 
+// p.506
 public class RegularExpression_02 {
 
 	public static void main(String[] args) {
