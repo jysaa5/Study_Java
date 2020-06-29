@@ -41,11 +41,16 @@ class MoreSpicy_Solution_01 {
 	public int solution(int[] scoville, int K) {
 		
 		int answer = 0;
+		
+		// 우선순위 큐 선언
 		PriorityQueue<Integer> food = new PriorityQueue<Integer>();
 		
+		// 큐에 scoville에 넣는다.
+		// 오름차순으로 큐에 저장된다.
 		for(int aScoville: scoville) {
 			food.offer(aScoville);
 		}
+		
 		
 		while(food.peek() <= K) {
 			
