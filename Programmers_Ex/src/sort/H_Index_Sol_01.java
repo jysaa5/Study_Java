@@ -39,9 +39,9 @@ class H_Index_Solution_01 {
         
         Arrays.sort(citations);
         
-        for(int i=0; i<citations.length; i++) {
+        for(int i=0; i<length; i++) {
         	h = citations[i];
-        	k = citations.length - i;
+        	k = length - i;
         	
         	if(k <= h) {
         		answer = k;
