@@ -53,7 +53,7 @@ each element of array A is an integer within the range [1..N + 1].
 N 카운터들 -> 초기화 = 0
 카운터들의 작동 함수: 
 increase(X) = 카운터 X는 1씩 증가한다. 
-max counter = 모든 카운터들을 현재 같고 있는 최대값으로 설정된다.
+max counter = 모든 카운터들을 현재 갖고 있는 최대값으로 설정된다.
 배열 A = M 정수들, 비어있지 않음. 연속작업을 한다.
 i) A[k] = X 이고 1<=X<=N이면, K는 increase(X)로 작동
 ii) A[k] = N+1이면 K는 maxcounter로 작동
@@ -64,30 +64,39 @@ class MaxCounters_Solution_02 {
 
 	public int[] solution(int N, int[] A) {
 
+		// 현재 카운터들 중에서 가장 큰 값
 		int currentMax = 0;
+		// max counter에서 수행하기 위해 
 		int lastCalledMax = 0;
+		// 카운터
 		int[] counters = new int[N];
 
 		for (int i = 0; i < A.length; i++) {
+			// max counter 수행하기 위해 최대값을 따로 저장 -> 계속 수행하면 복잡도가 상승하기 때문이다.
 			if (A[i] == N + 1) {
+				
 				lastCalledMax = currentMax;
 				
 			} else {
 				
 				int counter = A[i] - 1;
-				
+				// Max counter가 호출된 시점의 max값이 lastCalledMax보다 작을 때
 				if (counters[counter] < lastCalledMax) {
 					counters[counter] = lastCalledMax + 1;
+				
+				// 작지 않다면 해당 카운터의 값을 1증가 시킨다. 
 				} else {
 					counters[counter]++;
 				}
-
+				
+				// 현재 최대값을 갱신한다.
 				if (counters[counter] > currentMax) {
 					currentMax = counters[counter];
 				}
 			}
 		}
 
+		// counter가 lastCalledMax보다 작으면 lastCalledMax로 대입
 		for (int i = 0; i < N; i++) {
 			if (counters[i] < lastCalledMax) {
 				counters[i] = lastCalledMax;
