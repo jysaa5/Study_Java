@@ -78,7 +78,7 @@ K번째 쿼리 (0 ≤ K < M)를 사용하려면 위치 P[K]와 Q[K] (포함)사�
 
 2. 주어진 문자열(S)를 하나씩 검사하면서, 변화를 기록한다.
 */
-// Task Score: 
+// Task Score: 100%
 class GenomicRangeQuery_Solution_02 {
 	public int[] solution(String S, int[] P, int[] Q) {
 
