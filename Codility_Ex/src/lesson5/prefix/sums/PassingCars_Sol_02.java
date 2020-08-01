@@ -1,4 +1,7 @@
 package lesson5.prefix.sums;
+
+import java.util.Arrays;
+
 // 문제: PassingCars
 //Count the number of passing cars on the road.
 /*
@@ -9,6 +12,7 @@ Array A contains only 0s and/or 1s:
 The goal is to count passing cars. We say that a pair of cars (P, Q), where 0 ≤ P < Q < N, 
 is passing when P is traveling to the east and Q is traveling to the west.
 For example, consider array A such that:
+
   A[0] = 0
   A[1] = 1
   A[2] = 0
@@ -41,29 +45,61 @@ each element of array A is an integer that can have one of the following values:
 - 반환 값: (P, Q)의 개수 -> 1,000,000,000가 넘어가면 -1 반환
 
 2. 솔루션
-- 이중 for 문
+- 
  
-3. 시간복잡도: O(N^2)
+3. 시간복잡도: O(N)
+
+4. Total Score
+1) Task Score: 100%
+2) Correctness: 100%
+3) Performance: 100%
  */
 
-class PassingCars_Solution_01 {
+class PassingCars_Solution_02 {
     public int solution(int[] A) {
       
     	int count = 0;
+    	int one = 0;
+    	int[] arr = new int[A.length];
+    	int j = 0;
     	
-    	for(int i=0; i<A.length; i++) {
-    		if(A[i] == 0) {
-    			for(int j=i+1; j<A.length; j++) {
-    				if(A[j]==1) {
-    					count++;
-    				}
-    			}
+    	// 주어진 배열의 길이가 100,000을 초과할 때
+    	if( A.length > 100000) {
+    		return -1;
+    	}
+    	
+    	// arr배열에 주어진 배열 A값 넣기
+    	for (int i : A){
+    	    arr[j] = i;
+    	    j++;
+    	}
+
+    	// 주어진 배열을 정렬
+    	Arrays.sort(arr);
+    	
+    	// 정렬된 배열에서 1의 개수 찾기
+    	for(int k=0; k<arr.length; k++) {
+    		if(arr[k]==1) {
+    			one = arr.length - k;
+    			break;
     		}
     	}
     	
+    	// 주어진 배열 A에서 (0,1)쌍의 개수 카운트
+    	for(int l=0; l<A.length; l++) {
+    		if(A[l]==0) {
+    		
+    			count += one;
+  
+    		}else if(A[l]==1) {
+    			
+    			one--;
+    		}
+    	}
     	
-    	if(count>1000000000) {
-    		return -1;
+    	// 결과값의 제한 
+    	if( count > 1000000000 || count <0){
+    	    return -1;
     	}
     	
     	return count;
@@ -71,10 +107,10 @@ class PassingCars_Solution_01 {
     }
 }
 
-public class PassingCars_Sol_01 {
+public class PassingCars_Sol_02 {
 	public static void main(String[] args) {
 		int[] A = {0,1,0,1,1};
-		PassingCars_Solution_01 sol = new PassingCars_Solution_01();
+		PassingCars_Solution_02 sol = new PassingCars_Solution_02();
 		System.out.println(sol.solution(A));
 	}
 
