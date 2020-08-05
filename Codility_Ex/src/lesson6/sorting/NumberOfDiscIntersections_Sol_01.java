@@ -54,15 +54,16 @@ Ex)
 (2, 0), (2, 3)
 
 2. 솔루션
--
+- for문, if문
 
 3. 시간 복잡도
+: O(N*log(N)) or O(N)
 
 4. Total Score
 
-1) Task score:
-2) Correctness:
-3) Performance:
+1) Task score: 100%
+2) Correctness: 100%
+3) Performance: 100%
 
 */
 
@@ -77,22 +78,30 @@ class NumberOfDiscIntersections_Solution_01 {
 		
 		// 현재 위치에서 값이 큰 쪽에 디스크들이 도달하는 수를 저장하는 배열
 		long[] upper = new long[N];
-
+		
+		// 현재 위치 기준으로 반지름을 구해서 lower, upper 배열에 담는다.
 		for (int i = 0; i < N; i++) {
+			// lower 배열: J - A[J]
 			lower[i] = i - (long) A[i];
+			
+			// upper 배열: J + A[J]
 			upper[i] = i + (long) A[i];
 		}
 
+		// 정렬
 		Arrays.sort(lower);
 		Arrays.sort(upper);
 
 		int intersection = 0;
 		int j = 0;
 
+		// upper보다 작은 lower들은 반드시 가장 작은 upper보다 큰 반지름을 갖는다. = 접점
 		for (int i = 0; i < N; i++) {
 		
 			while (j < N && upper[i] >= lower[j]) {
 				intersection += j;
+				
+				// 다음 upper에서 겹치지 않게 현재 J만큼 빼준다.
 				intersection -= i;
 				j++;
 			}
