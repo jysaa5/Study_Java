@@ -117,36 +117,56 @@ the elements of A are all distinct.
 class Fish_Solution_01 {
 	public int solution(int[] A, int[] B) {
 
+		// 살아 있는 물고기 수
 		int aliveCount = 0;
+
+		// up fish
+		// 하류로 내려가는 물고기들 저장
 		Stack<Integer> downFishes = new Stack<>();
 
 		for (int i = 0; i < A.length; i++) {
-			if (B[i] == 0) { // up fish
+
+			// up fish
+			if (B[i] == 0) {
 				aliveCount++;
 
+				// stack이 비어 있을 때
 				if (downFishes.isEmpty()) {
+					// for문 끝으로 가서 i++ 증감
 					continue;
 				}
 
+				// stack에서 맨 위에 있는 값을 downFish에 저장
 				int downFish = downFishes.peek();
 
+				// 무한 반복
 				while (true) {
+					// 살아있는 물고기 수 감소
 					aliveCount--;
 
+					// 하류로 내려가는 물고기 크기가 작음 -> 잡아 먹힘
 					if (A[downFish] < A[i]) {
+						// 하류로 내려가는 물고기 수 감소
 						downFishes.pop();
 
+						// stack이 비어있으면 무한 반복문 빠져나가기
 						if (downFishes.isEmpty()) {
 							break;
 						}
-
+						// stack에서 맨 위에 있는 값을 downFish에 저장
 						downFish = downFishes.peek();
+
+						// 하류로 내려가는 물고기 크기가 크다 -> 상류로 가는 물고기가 잡아 먹힘
 					} else {
 						break;
 					}
 				}
-			} else { // down fish
+
+				// down fish
+			} else {
+				// stack에 하류로 가는 물고기의 인덱스 넣기
 				downFishes.add(i);
+				// 살아 있는 물고기 수 증가
 				aliveCount++;
 			}
 		}
@@ -161,7 +181,8 @@ public class Fish_Sol_01 {
 	public static void main(String[] args) {
 
 		int[] A = { 4, 3, 2, 1, 5 };
-		int[] B = { 0, 1, 0, 0, 0 };
+		// int[] B = { 0, 1, 0, 0, 0 };
+		int[] B = { 0, 1, 1, 1, 0 };
 
 		Fish_Solution_01 sol = new Fish_Solution_01();
 		System.out.println(sol.solution(A, B));
