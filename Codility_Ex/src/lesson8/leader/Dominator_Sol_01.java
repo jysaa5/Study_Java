@@ -2,8 +2,6 @@ package lesson8.leader;
 
 import java.util.HashMap;
 
-import java.util.Stack;
-
 // 문제: Dominator
 /*
 An array A consisting of N integers is given. 
@@ -47,8 +45,10 @@ each element of array A is an integer within the range [−2,147,483,648..2,147,
 - 배열 A의 각 요소는 [-2,147,483,648..2,147,483,647] 범위 내의 정수이다.
 
 2. 솔루션
+- HashMap 사용
 
 3. 시간복잡도
+: O(N*log(N)) or O(N)
 
 4. Total Score
 1) Task Score: 100%
@@ -57,42 +57,61 @@ each element of array A is an integer within the range [−2,147,483,648..2,147,
 */
 
 class Dominator_Solution_01 {
-    public int solution(int[] A) {
-    	
-    	if(A.length==0) {
-    		return -1;
-    	}
-    	
-    	HashMap<Integer, Integer> hm = new HashMap<>();
-    	int max = 1;
-    	
-    	for(int a:A) {
-    		if(!hm.containsKey(a)) {
-    			hm.put(a, 1);
-    		}else {
-    			hm.put(a, hm.get(a)+1);
-    			
-    			
-    			if(max<hm.get(a)) {
-    				max = hm.get(a);
-    			}
-    		}
-    		
-    	}
-    	
-    	if(max <= A.length/2) {
-    		return -1;
-    	}
-    	
-    	System.out.println(max);
-    	
-        
-    }
+	public int solution(int[] A) {
+		
+		// A 배열 값이 없을 때
+		if (A.length == 0) {
+			return -1;
+		}
+
+		// HashMap 생성
+		HashMap<Integer, Integer> hm = new HashMap<>();
+		// 최대값
+		int max = 1;
+
+		for (int a : A) {
+			if (!hm.containsKey(a)) {
+				hm.put(a, 1);
+			} else {
+				hm.put(a, hm.get(a) + 1);
+				
+				// 최대값 저장
+				if (max < hm.get(a)) {
+					max = hm.get(a);
+				}
+			}
+
+		}
+		
+		// 최대값이 배열의 길이의 절반보다 작으면 -1 반환
+		if (max <= A.length / 2) {
+			return -1;
+		}
+
+		//System.out.println(max);
+
+		int dominator = 0;
+		
+		// max값을 가지는 key 값 찾기
+		for (int key : hm.keySet()) {
+			if (max == hm.get(key)) {
+				dominator = key;
+			}
+		}
+
+		// 제일 많은 빈도수를 가진 값을 갖고 있는 인덱스값 찾기
+		for (int i = 0; i < A.length; i++) {
+			if (A[i] == dominator) {
+				return i;
+			}
+		}
+		return -1;
+	}
 }
 
 public class Dominator_Sol_01 {
 	public static void main(String[] args) {
-		int[] A = {3, 4, 3, 2, 3, -1, 3, 3};
+		int[] A = { 3, 4, 3, 2, 3, -1, 3, 3 };
 		Dominator_Solution_01 sol = new Dominator_Solution_01();
 		System.out.println(sol.solution(A));
 	}
