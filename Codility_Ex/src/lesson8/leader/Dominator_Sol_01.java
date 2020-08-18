@@ -83,7 +83,7 @@ class Dominator_Solution_01 {
 
 		}
 		
-		// 최대값이 배열의 길이의 절반보다 작으면 -1 반환
+		// 최대값이 배열의 길이의 절반이거나 작으면 -1 반환
 		if (max <= A.length / 2) {
 			return -1;
 		}
@@ -111,9 +111,10 @@ class Dominator_Solution_01 {
 
 public class Dominator_Sol_01 {
 	public static void main(String[] args) {
+		
 		int[] A = { 3, 4, 3, 2, 3, -1, 3, 3 };
 		Dominator_Solution_01 sol = new Dominator_Solution_01();
 		System.out.println(sol.solution(A));
+		
 	}
-
 }
