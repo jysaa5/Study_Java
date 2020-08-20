@@ -87,7 +87,7 @@ N은 [3..100,000] 범위 내의 정수이다.
 2) Correctness: 100%
 3) Performance: 100%
 */
-class MaxDoubleSliceSum_Solution_02 {
+class MaxDoubleSliceSum_Solution_01 {
     public int solution(int[] A) {
     	
     	  int N = A.length;
@@ -119,7 +119,7 @@ public class MaxDoubleSliceSum_Sol_01 {
 		//int[] A = {3,2,6,1,4,5,1,2};
 		//int[] A = {-3,-2,-6,-1,-4,-5,-1,-2};
 		
-		MaxDoubleSliceSum_Solution_02 sol = new MaxDoubleSliceSum_Solution_02();
+		MaxDoubleSliceSum_Solution_01 sol = new MaxDoubleSliceSum_Solution_01();
 		System.out.print(sol.solution(A));
 	}
 
