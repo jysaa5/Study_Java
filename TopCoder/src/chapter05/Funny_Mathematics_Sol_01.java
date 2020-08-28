@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 // p.107
 // 문제: 재밌는 수학
-// 솔루션: 
+// 솔루션: 다중 for문 사용, 배열 사용
 public class Funny_Mathematics_Sol_01 {
 	public static int[] digits(int base) {
 		ArrayList<Integer> v = new ArrayList<Integer>();
@@ -47,7 +47,12 @@ public class Funny_Mathematics_Sol_01 {
 	}
 
 	public static void main(String[] args) {
-		int base = 10;
+		//int base = 10;
+		//int base = 3;
+		//int base = 9;
+		//int base = 26;
+		int base = 30;
+		
 		for (int i : digits(base)) {
 			System.out.println(i);
 		}
