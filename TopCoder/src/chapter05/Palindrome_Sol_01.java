@@ -34,7 +34,10 @@ public class Palindrome_Sol_01 {
 
 	public static void main(String[] args) {
 		
-		String s = "abab";
+//		String s = "abab";
+//		String s = "abacaba";
+//		String s = "qwerty";
+		String s = "abdfhdyrbdbsdfghjkllkjhgfds";
 		System.out.println(find(s));
 
 	}
