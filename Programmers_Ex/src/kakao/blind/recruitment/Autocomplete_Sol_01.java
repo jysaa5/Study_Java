@@ -63,21 +63,26 @@ class Autocomplete_Solution_01 {
 
 		// 사전순 정렬
 		Arrays.sort(words);
-
+		
+		// 어레이리스트에 저장
 		ArrayList<String> arr = new ArrayList<String>();
 		for (String word : words) {
 			arr.add(word);
 		}
-
+		
+		// 인덱스 0인 문자열과 인덱스 1인 문자열이 몇개의 문자가 같은지 반환.
 		value = len(arr.get(0), arr.get(1));
 
-		// 인덱스 0인 문자열 길이보다 value가 작을 때
+		// 인덱스 0인 문자열 길이보다 value가 작을 때 = 인덱스가 0인 문자열이 인덱스가 1인 문자열과 완전 같지 않음 
 		if (value < arr.get(0).length()) {
+			// 구분하기 위해서 1을 더함.
 			answer += value + 1;
 		} else {
+			// 인덱스 0인 문자열을 구분하기 위한 값을 answer에 넣는다.
 			answer += value;
 		}
 
+		// 인덱스 양 옆에 문자열과 비교해서 가장 많이 닮은 문자열 수를 value에 담는다.
 		for (int i = 1; i < words.length - 1; i++) {
 			value = len(arr.get(i), arr.get(i - 1));
 			value = Math.max(len(arr.get(i), arr.get(i + 1)), value);
@@ -88,9 +93,10 @@ class Autocomplete_Solution_01 {
 				answer += value;
 			}
 		}
-
+		
+		// 맨 마지막에 있는 문자열과 그 앞에 있는 문자열 비교
 		value = len(arr.get(words.length - 2), arr.get(words.length - 1));
-
+		// 맨 마지막에 있는 문자열의 길이보다 value가 작을 때 = 마지막 문자열과 그 앞에 문자열을 구분하려면 한 개 더 입력해야 함.
 		if (value < arr.get(words.length - 1).length()) {
 			answer += value + 1;
 		} else {
@@ -117,7 +123,9 @@ class Autocomplete_Solution_01 {
 public class Autocomplete_Sol_01 {
 
 	public static void main(String[] args) {
-		String[] words = { "go", "gone", "guild" };
+		//String[] words = { "go", "gone", "guild" };
+		//String[] words = { "abc", "def", "ghi", "jklm" };
+		String[] words = { "word", "war", "warrior", "world" };
 		Autocomplete_Solution_01 sol = new Autocomplete_Solution_01();
 		System.out.println("답: " + sol.solution(words));
 	}
