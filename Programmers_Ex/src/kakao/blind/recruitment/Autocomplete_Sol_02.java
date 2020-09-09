@@ -68,7 +68,7 @@ class Trie {
 		NodeInfo current = root;
 		
 		// 문자열의 길이만큼 문자들 저장
-		for (int s = 0; s < word.length(); ++s) {	
+		for (int s = 0; s < word.length(); s++) {	
 			// 문자
 			char c = word.charAt(s);
 			// 문자의 ASCII코드에서 a의 ASCII코드 뺀 값
@@ -95,14 +95,15 @@ class Trie {
 		int cnt = 1;
 
 		// 문자열의 길이만큼
-		for (int s = 0; s < word.length(); ++s) {
+		for (int s = 0; s < word.length(); s++) {
 			char c = word.charAt(s);
 			int idx = c - 'a';
 			// 현재 노드의 child 노드에 값이 있을 때
 			if (current.child[idx] != null) {
 				// 마지막 단어라면
-				if (s == word.length() - 1)
+				if (s == word.length() - 1) {
 					return cnt;
+				}
 
 				// 해당 글자가 1번만 사용되었다면 더이상 내려갈 필요 x
 				if (current.child[idx].usedCnt <= 1) {
@@ -124,13 +125,14 @@ class NodeInfo {
 	public char ch;
 	// 사용된 문자의 횟수
 	public int usedCnt;
-	// child 노드 
+	// child 노드의 배열로 child 만듦
 	public NodeInfo[] child;
 
 	// 생성자
 	public NodeInfo(char ch) {
 		this.ch = ch;
 		this.usedCnt = 1;
+		// 알파벳 개수만큼 배열 생성
 		this.child = new NodeInfo[26];
 	}
 }
