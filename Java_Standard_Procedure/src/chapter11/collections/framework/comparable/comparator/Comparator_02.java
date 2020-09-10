@@ -1,4 +1,4 @@
-package chapter11.collections.framework;
+package chapter11.collections.framework.comparable.comparator;
 
 import java.util.Arrays;
 import java.util.Comparator;

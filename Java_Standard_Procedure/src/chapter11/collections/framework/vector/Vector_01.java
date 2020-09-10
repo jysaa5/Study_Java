@@ -1,4 +1,4 @@
-package chapter11.collections.framework;
+package chapter11.collections.framework.vector;
 
 import java.util.Vector;
 

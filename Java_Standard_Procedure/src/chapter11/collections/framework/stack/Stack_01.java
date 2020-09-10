@@ -1,4 +1,4 @@
-package chapter11.collections.framework;
+package chapter11.collections.framework.stack;
 
 import java.util.EmptyStackException;
 import java.util.Vector;

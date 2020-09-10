@@ -1,4 +1,4 @@
-package chapter11.collections.framework;
+package chapter11.collections.framework.arrays;
 
 import java.util.List;
 import java.util.ArrayList;

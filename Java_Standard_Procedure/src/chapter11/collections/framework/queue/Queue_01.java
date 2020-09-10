@@ -1,4 +1,4 @@
-package chapter11.collections.framework;
+package chapter11.collections.framework.queue;
 
 import java.util.LinkedList;
 import java.util.ListIterator;
