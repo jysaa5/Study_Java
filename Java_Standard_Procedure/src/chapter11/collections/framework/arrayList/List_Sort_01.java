@@ -13,6 +13,7 @@ public class List_Sort_01 {
 		strList.add("abc");
 		strList.add("ABCD");
 		strList.add("123456");
+		strList.add("!@#$");
 		
 		// 오름 차순
 		Collections.sort(strList);

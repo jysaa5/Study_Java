@@ -14,6 +14,16 @@ public class Convert_from_List_to_Array_01 {
 		strList.add("1");
 		strList.add("2");
 		
+		// Array
+		String[] strArray = strList.toArray(new String[strList.size()]);
+		System.out.println(Arrays.toString(strArray));
+		// [a, b, c, 1, 2]
+		
+		// 배열 출력
+		for(String s : strArray) {
+			System.out.println(s);
+		}
+		
 		
 	}
 }
