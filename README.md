@@ -60,7 +60,7 @@
         </ul>
   </li>
    <li>
-      <h5><a="https://github.com/jysaa5/Violet_Study_Java/tree/master/Java_Standard_Procedure">자바의 정석</a></h5>
+      <h5><a href="https://github.com/jysaa5/Violet_Study_Java/tree/master/Java_Standard_Procedure">자바의 정석</a></h5>
    </li>
  </ul> 
   </li>
