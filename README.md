@@ -23,7 +23,7 @@
 </ul>
 <li><h5>문자열 (String)</h5>
 <ul>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/FunctionLibrary/src/imp/stringbuilder">StringBuilder</a></h5>
+<li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/FunctionLibrary/src/make/stringbuilder/StringBuilder_Imp.java">StringBuilder</a></h5>
 </li>
 </ul>
 </li>
