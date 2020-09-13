@@ -4,32 +4,7 @@
 <ul>
 <li><h5><a href ="https://programmers.co.kr/">Programmers</a> : <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Beginning/src">자바 입문</a></h5></li>
 <li> <h5><a href ="https://programmers.co.kr/">Programmers</a> : <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Intermediate/src">자바 중급</h5></a></li>
-<li><h5>기능 구현 (Function Implementation)</h5>
-<ul>
-<li><h5> <a href="">자료형 판별 클래스 (Data Type Distinction Class)</a></h5></li>
-<li><h5>재귀함수 (Recursive Function)</h5>
-<ul>
-<li><h5><a href ="">피보나치 수열 (Fibonacci Numbers)</a></h5></li>
-<li><h5><a href ="">팩토리얼 (Factorial)</a></h5></li>
-</ul>
-</li>
-<li><h5>정렬 (Sort)</h5>
-<ul>
-<li><h5><a href="">오름차순 정수 정렬</a></h5></li>
-<li><h5><a href ="">내림차순 정수 정렬</a></h5></li>
-<li><h5>배열의 최대값, 최소값 구하기: <a href ="">Solution1</a>, <a href ="">Solution2</a></h5> </li>
-<li><h5>문자열 거꾸로 출력: <a href="">Solution1</a>, <a href="">Solution2</a></h5></li>
-<li><h5>문자열 내림차순 정렬(소문자 > 대문자): <a href="">Solution1</a>, <a href="">Solution2</a>, <a href="">Solution3</a></h5></li>
-</ul>
-<li><h5>문자열 (String)</h5>
-<ul>
-<li><h5><a href="">StringBuilder</a></h5>
-</li>
-</ul>
-</li>
-</li>
-</ul>
-</li>
+
 <li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/tree/master/Java_Standard_Procedure/src">자바의 정석</a></h5></li>
 </ul> 
 </li>
@@ -54,6 +29,7 @@
 <li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/graph/dfs">DFS (Depth First Search)</a></h5></li>
 </ul>
 </li>
+
 <li><h5>Sort</h5>
 <ul>
 <li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/bubbleSort">Bubble Sort</a></h5></li>
@@ -77,6 +53,27 @@
 <li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/number/primeNumber/PrimeNumber.java">Prime Number(소수)</a></h5></li>
 <li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/math/combination/Combination_01.java">Combination(조합)</a></h5></li>
 <li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/math/permutation">Permutation(순열)</a></h5></li>
+</ul>
+
+<li><h5> <a href="">자료형 판별 클래스 (Data Type Distinction Class)</a></h5></li>
+<li><h5>재귀함수 (Recursive Function)</h5>
+<ul>
+<li><h5><a href ="">피보나치 수열 (Fibonacci Numbers)</a></h5></li>
+<li><h5><a href ="">팩토리얼 (Factorial)</a></h5></li>
+</ul>
+
+<li><h5>정렬 (Sort)</h5>
+<ul>
+<li><h5><a href="">오름차순 정수 정렬</a></h5></li>
+<li><h5><a href ="">내림차순 정수 정렬</a></h5></li>
+<li><h5>배열의 최대값, 최소값 구하기: <a href ="">Solution1</a>, <a href ="">Solution2</a></h5> </li>
+<li><h5>문자열 거꾸로 출력: <a href="">Solution1</a>, <a href="">Solution2</a></h5></li>
+<li><h5>문자열 내림차순 정렬(소문자 > 대문자): <a href="">Solution1</a>, <a href="">Solution2</a>, <a href="">Solution3</a></h5></li>
+</ul>
+<li><h5>문자열 (String)</h5>
+<ul>
+<li><h5><a href="">StringBuilder</a></h5>
+</li>
 </ul>
   
 </li>
