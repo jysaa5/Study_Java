@@ -32,19 +32,19 @@
 
 <li><h5>Sort (정렬)</h5>
 <ul>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/bubbleSort">Bubble Sort</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/countingSort">Counting Sort</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/heapSort">Heap Sort</a></h5></li> 
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/insertionSort">Insertion Sort</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/mergeSort">Merge Sort</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/quickSort">Quick Sort</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/radixSort">Radix Sort</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/selectionSort">Selection Sort</a></h5></li>
-<li><h5><a href="">오름차순 정수 정렬</a></h5></li>
-<li><h5><a href ="">내림차순 정수 정렬</a></h5></li>
-<li><h5>배열의 최대값, 최소값 구하기: <a href ="">Solution1</a>, <a href ="">Solution2</a></h5> </li>
-<li><h5>문자열 거꾸로 출력: <a href="">Solution1</a>, <a href="">Solution2</a></h5></li>
-<li><h5>문자열 내림차순 정렬(소문자 > 대문자): <a href="">Solution1</a>, <a href="">Solution2</a>, <a href="">Solution3</a></h5></li>
+<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/bubbleSort">Bubble Sort (버블정렬)</a></h5></li>
+<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/countingSort">Counting Sort (계수정렬)</a></h5></li>
+<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/heapSort">Heap Sort (힙정렬)</a></h5></li> 
+<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/insertionSort">Insertion Sort (삽입정렬)</a></h5></li>
+<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/mergeSort">Merge Sort (합병정렬)</a></h5></li>
+<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/quickSort">Quick Sort (퀵정렬)</a></h5></li>
+<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/radixSort">Radix Sort (기수정렬)</a></h5></li>
+<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/selectionSort">Selection Sort (선택정렬)</a></h5></li>
+<li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Integer_SortAsc_Sol_01.java">Integer ascending order (정수 오름차순 정렬)</a></h5></li>
+<li><h5><a href ="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Integer_SortDes_Sol_02.java">Integer descending order (정수 내림차순 정렬)</a></h5></li>
+<li><h5>배열의 최대값, 최소값 구하기: <a href ="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_01.java">Solution1</a>, <a href ="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_02.java">Solution2</a></h5> </li>
+<li><h5>문자열 거꾸로 출력: <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_Reverse_01.java">Solution1</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_Reverse_02.java">Solution2</a></h5></li>
+<li><h5>문자열 내림차순 정렬(소문자 > 대문자): <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_SortDes_01.java">Solution1</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_SortDes_02.java">Solution2</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_SortDes_03.java">Solution3</a></h5></li>
 </ul>
   
 </li>
@@ -60,24 +60,17 @@
 <li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/math/permutation">Permutation(순열)</a></h5></li>
 </ul>
 
-<li><h5> <a href="">자료형 판별 클래스 (Data Type Distinction Class)</a></h5></li>
+<li><h5> <a href="https://github.com/jysaa5/Violet_Study_Java/tree/master/Algorithm/src/distinguish/data/type">자료형 판별 클래스 (Data Type Distinction Class)</a></h5></li>
+
 <li><h5>재귀함수 (Recursive Function)</h5>
 <ul>
-<li><h5><a href ="">피보나치 수열 (Fibonacci Numbers)</a></h5></li>
-<li><h5><a href ="">팩토리얼 (Factorial)</a></h5></li>
+  <li><h5>피보나치 수열 (Fibonacci Numbers): <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Fibonacci_Sol_01.java">Solution 01</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Fibonacci_Sol_02.java">Solution 02</a></h5></li>
+  <li><h5>팩토리얼 (Factorial): <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Factorial_Sol_01.java">Solution 01</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Factorial_Sol_02.java">Solution 02</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Factorial_Sol_03.java">Solution 03</a></h5></li>
 </ul>
 
-<li><h5>정렬 (Sort)</h5>
-<ul>
-<li><h5><a href="">오름차순 정수 정렬</a></h5></li>
-<li><h5><a href ="">내림차순 정수 정렬</a></h5></li>
-<li><h5>배열의 최대값, 최소값 구하기: <a href ="">Solution1</a>, <a href ="">Solution2</a></h5> </li>
-<li><h5>문자열 거꾸로 출력: <a href="">Solution1</a>, <a href="">Solution2</a></h5></li>
-<li><h5>문자열 내림차순 정렬(소문자 > 대문자): <a href="">Solution1</a>, <a href="">Solution2</a>, <a href="">Solution3</a></h5></li>
-</ul>
 <li><h5>문자열 (String)</h5>
 <ul>
-<li><h5><a href="">StringBuilder</a></h5>
+<li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/tree/master/Algorithm/src/stringBuilder">StringBuilder</a></h5>
 </li>
 </ul>
   
