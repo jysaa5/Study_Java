@@ -30,7 +30,7 @@
 </ul>
 </li>
 
-<li><h5>Sort</h5>
+<li><h5>Sort (정렬)</h5>
 <ul>
 <li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/bubbleSort">Bubble Sort</a></h5></li>
 <li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/countingSort">Counting Sort</a></h5></li>
@@ -40,6 +40,11 @@
 <li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/quickSort">Quick Sort</a></h5></li>
 <li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/radixSort">Radix Sort</a></h5></li>
 <li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/selectionSort">Selection Sort</a></h5></li>
+<li><h5><a href="">오름차순 정수 정렬</a></h5></li>
+<li><h5><a href ="">내림차순 정수 정렬</a></h5></li>
+<li><h5>배열의 최대값, 최소값 구하기: <a href ="">Solution1</a>, <a href ="">Solution2</a></h5> </li>
+<li><h5>문자열 거꾸로 출력: <a href="">Solution1</a>, <a href="">Solution2</a></h5></li>
+<li><h5>문자열 내림차순 정렬(소문자 > 대문자): <a href="">Solution1</a>, <a href="">Solution2</a>, <a href="">Solution3</a></h5></li>
 </ul>
   
 </li>
