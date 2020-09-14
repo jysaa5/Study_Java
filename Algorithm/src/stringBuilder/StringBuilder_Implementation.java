@@ -112,7 +112,7 @@ class StringBuilder{
 
 
 // StringBuilder_Imp 클래스
-public class StringBuilder_Imp {
+public class StringBuilder_Implementation {
 
 	// main 메서드
 	public static void main(String[] args) {
