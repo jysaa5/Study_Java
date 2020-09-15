@@ -84,7 +84,8 @@
 </li>
 <li><h3>코딩 테스트 준비 (Prepare for coding test)</h3>
 <ul>
-<li><h5><a href ="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/CodeUp_basics100/src/violetCheese">기초 100문제 풀기 (Java version) → 완료</a></h5></li>
+<li><h5><a href ="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/CodeUp_basics100/src/violetCheese">CodeUp 기초 100문제 풀기 (Java version) → 완료</a></h5></li>
+<li><h5><a href="">CodeUp</a></h5></li>
 <li><h5> <a href ="https://programmers.co.kr/">Programmers</a> : <a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Programmers_Ex/src">코딩테스트 연습</a></h5></li>
 <li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/HackerRank">HackerRank</a></h5></li>
 <li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/TopCoder">TopCoder</a></h5></li>
