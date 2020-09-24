@@ -1,4 +1,4 @@
-# 1일 1커밋 (1 commit per day)
+# Study for Java & 1일 1코딩 1커밋
 <ul>
 <li><h3> 자바 공부 (Java Study)</h3>
 <ul>
