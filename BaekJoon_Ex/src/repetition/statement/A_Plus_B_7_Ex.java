@@ -5,22 +5,32 @@ public static void main(String[] args){
 }
 }
 */
-// 문제: 2742 (기찍N)
+// 문제: 11021 (A+B-7)
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-public class Chop_N_Reverse_Ex {
-	
+import java.util.StringTokenizer;
+public class A_Plus_B_7_Ex {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		int n = Integer.parseInt(br.readLine());
-		for(int i=n; i>0; i--) {
-			bw.write(i+"\n");
+		StringTokenizer st;
+		
+		int t = Integer.parseInt(br.readLine());
+		int[] num = new int[2];
+		int k = 0;
+		for(int i=0; i<t; i++) {
+			st = new StringTokenizer(br.readLine());
+			num[k] = Integer.parseInt(st.nextToken());
+			num[k+1] = Integer.parseInt(st.nextToken());
+			int n = i+1;
+			int sum = num[k]+num[k+1];
+			bw.write("Case #"+n+":"+" "+sum+"\n");
 		}
 		br.close();
 		bw.flush();
 		bw.close();
 	}
+
 }
