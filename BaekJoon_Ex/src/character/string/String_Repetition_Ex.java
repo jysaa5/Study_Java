@@ -32,5 +32,6 @@ public class String_Repetition_Ex {
 			}
 			System.out.println("");
 		}
+		sc.close();
 	}
 }

@@ -19,7 +19,6 @@ public class A_Plus_B_5_Ex {
 		int a = 1;
 		int b = 1;
 		StringTokenizer st;
-		String s;
 		ArrayList<Integer> ar = new ArrayList<Integer>();
 		while((a != 0) || (b != 0)) {
 			st =  new StringTokenizer(br.readLine());

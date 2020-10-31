@@ -61,7 +61,6 @@ public class Multiple_Ex {
 		for (int n : result) {
 			System.out.println(n);
 		}
-
+		sc.close();
 	}
-
 }
