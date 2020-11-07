@@ -22,5 +22,6 @@ public class Dial_Ex {
 			}
 		}
 		System.out.println(result);
+		sc.close();
 	}
 }

@@ -14,11 +14,11 @@ public class Croatian_Alphabet_Ex {
 		Scanner sc = new Scanner(System.in);
 		String[] ca = { "c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z=" };
 		String str = sc.nextLine();
-		int result = 0;
 
 		for (int i = 0; i < ca.length; i++) {
 			str = str.replaceAll(ca[i], "1");
 		}
 		System.out.println(str.length());
+		sc.close();
 	}
 }
