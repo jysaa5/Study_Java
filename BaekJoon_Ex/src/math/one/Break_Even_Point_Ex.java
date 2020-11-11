@@ -6,7 +6,7 @@ public static void main(String[] args){
 }
 }
 */
-// 문제: 10809 (알파벳 찾기)
+// 문제: 10809 (손익분기점)
 import java.util.Scanner;
 
 public class Break_Even_Point_Ex {
