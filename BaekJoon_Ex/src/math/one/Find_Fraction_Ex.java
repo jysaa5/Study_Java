@@ -12,11 +12,13 @@ public class Find_Fraction_Ex {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		
+		// 몇번째 줄
 		int line = 0;
+		// line번째 까지 분수의 개수
 		int cnt = 0;
 		while(cnt<n) {
 			line++;
-			cnt = line *(line + 1) / 2;
+			cnt = line*(line + 1) / 2;
 		}
 		if(line%2 != 0) {
 			int numerator = 1+(cnt-n);
