@@ -18,15 +18,14 @@ public class ACM_Hotel_Ex {
 			int height = Integer.parseInt(nums[0]);
 			int width = Integer.parseInt(nums[1]);
 			int guest = Integer.parseInt(nums[2]);
-			String result = null;
-			if(guest/height==0) {
-				result = guest+""+"01";
-			}else if(guest/height>=1 && guest%height == 0) {
-				result = height+""+"0"+(guest/height);
-			}else {
-				result = guest%height+"0"+((guest/height)+1);
+			int x = (guest/height) + 1;
+			int y = guest%height;
+			
+			if(guest%height==0) {
+				x = guest/height;
+				y = height;
 			}
-			System.out.println(result);
+			System.out.println(y*100+x);
 			count++;
 		}
 		sc.close();
