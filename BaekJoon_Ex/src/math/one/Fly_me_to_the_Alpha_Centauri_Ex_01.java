@@ -7,7 +7,7 @@ public static void main(String[] args){
 */
 // ¹®Á¦: 1011 (Fly me to the Alpha Centauri)
 import java.util.Scanner;
-public class Fly_me_to_the_Alpha_Centauri_Ex {
+public class Fly_me_to_the_Alpha_Centauri_Ex_01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int t = Integer.parseInt(sc.nextLine().trim());
