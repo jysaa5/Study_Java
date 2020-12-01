@@ -16,39 +16,21 @@ public class Fly_me_to_the_Alpha_Centauri_Ex {
 			String s = sc.nextLine();
 			int x = Integer.parseInt(s.split(" ")[0]);
 			int y = Integer.parseInt(s.split(" ")[1]);
-			int d = 1;
-			int n = 1;
-			int times = 1;
-			d = x+1;
-			while(d < y-1) {
-				int k1 = n-1;
-				int k2 = n;
-				int k3 = n+1;
-				if(k3 < y-1) {
-					d += k3;
-					n = n+1;
-				}else if(k3>y-1) {
-					if(k2<y-1) {
-						d += k2;
-					}else if(k2>y-1) {
-						d += k1;
-						if(d==y-1) {
-							times++;
-							break;
-						}
-						n = n-1;
-					}else {
-						times++;
-						break;
-					}
-				}else {
-					times++;
+			int distance = y-x;
+			int cnt = 1;
+			
+			while(true) {
+				if(Math.pow(cnt, 2) > distance) {
 					break;
 				}
-				times++;
+				cnt++;
 			}
+			cnt--;
 			
-			nums[i] = times;
+			int move = cnt*2 -1;
+			int minor = distance - (int)Math.pow(cnt, 2);
+			move += Math.ceil((double)minor/(double)cnt);
+			nums[i] = move;
 		}
 		
 		for(int num : nums) {
