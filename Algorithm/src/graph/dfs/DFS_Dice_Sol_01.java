@@ -1,6 +1,6 @@
 package graph.dfs;
 /*
-1. 문제: 10이하의 자연수 N을 입력받아 주사위를 n번 던져서 나올수 있는 모든 경우을 출력하는 프로그램을 작성하시오.
+1. 문제: 10이하의 자연수n을 입력받아 주사위를 n번 던져서 나올수 있는 모든 경우을 출력하는 프로그램을 작성하시오.
 2. 솔루션: DFS
 */
 import java.util.Scanner;
@@ -17,7 +17,7 @@ public class DFS_Dice_Sol_01 {
 		
 		if(depth > n) {
 			for(i=1; i<=n; i++) {
-				System.out.println(arr[i]);
+				System.out.print(arr[i]+ " ");
 			}
 			System.out.println("");
 			return;
