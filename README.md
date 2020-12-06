@@ -56,6 +56,7 @@
 <li><h5>Math</h5>
 <ul>
 <li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/number/primeNumber/PrimeNumber.java">Prime Number(소수)</a></h5></li>
+<li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/number/primeNumber/Sieve_of_Eratosthenes.java">Sieve of Eratosthenes(에라토스테네스의 체)</a></h5></li>
 <li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/math/combination/Combination_01.java">Combination(조합)</a></h5></li>
 <li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/math/permutation">Permutation(순열)</a></h5></li>
 </ul>
