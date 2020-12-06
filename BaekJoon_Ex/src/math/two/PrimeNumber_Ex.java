@@ -12,10 +12,10 @@ public class PrimeNumber_Ex {
 	
 	public static void main(String[] args) {
  
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
-		int M = in.nextInt();
-		int N = in.nextInt();
+		int M = sc.nextInt();
+		int N = sc.nextInt();
 		
 		prime = new boolean[N + 1];	// 배열 생성 
 		get_prime();
@@ -40,6 +40,7 @@ public class PrimeNumber_Ex {
 			System.out.println(sum);
 			System.out.println(min);
 		}
+		sc.close();
 		
 	}
  
