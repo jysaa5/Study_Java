@@ -1,5 +1,5 @@
 package number.primeNumber;
-// 에라토스테네스의 체
+// Sieve of Eratosthenes
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Sieve_of_Eratosthenes {
