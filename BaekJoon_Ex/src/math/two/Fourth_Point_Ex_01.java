@@ -7,7 +7,7 @@ public static void main(String[] args){
 */
 // 문제: 3009 (네 번째 점)
 import java.util.Scanner;
-public class Fourth_point_Ex {
+public class Fourth_Point_Ex_01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int[] x = new int[3];
