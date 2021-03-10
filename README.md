@@ -1,4 +1,4 @@
-# Study for Java & 1일 1코딩 1커밋
+# Study Java
 <ul>
 <li><h3> 자바 공부 (Java Study)</h3>
 <ul>
