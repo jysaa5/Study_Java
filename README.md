@@ -83,7 +83,7 @@
 <li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DesignPattern/src/singleton/pattern">Singleton Pattern</a></h5></li>
 </ul>
 </li>
-<li><h3>코딩 테스트 준비 (Prepare for coding test)</h3>
+<li><h3>코딩 테스트 준비 (Coding test)</h3>
 <ul>
 <li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/tree/master/BaekJoon_Ex/src">BAEKJOON(백준)</a></h5></li>
 <li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Codility_Ex">Codility</a></h5></li>
