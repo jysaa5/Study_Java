@@ -1,4 +1,4 @@
-# Study Java
+# Java
 <ul>
 <li><h3> 자바 공부 (Java Study)</h3>
 <ul>
