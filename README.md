@@ -1,25 +1,19 @@
 # Java
 ### Java Study
 + [Programmers](https://programmers.co.kr/): [자바 입문](https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Beginning/src)
++ [Programmers](https://programmers.co.kr/): [자바 중급](https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Intermediate/src)
++ [자바의 정석](https://github.com/jysaa5/Violet_Study_Java/tree/master/Java_Standard_Procedure/src)
 
-<li> <h5><a href ="https://programmers.co.kr/">Programmers</a> : <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Intermediate/src">자바 중급</h5></a></li>
+--------------------------------
+### Data Structure (자료 구조) 
++ [Hash Table](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/table/hash/table)
++ List
+  + [ArrayList](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/list/array) 
+  + [LinkedList](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/list/linked/list)
+  + [Doubly LinkedList](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/list/doubly/linked/list)
++ [Queue](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/queue)
++ [Stack](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/stack)
 
-<li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/tree/master/Java_Standard_Procedure/src">자바의 정석</a></h5></li>
-</ul> 
-</li>
-<li><h3>자료구조 (Data Structure)</h3> 
-<ul>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/table/hash/table">Hash Table</a></h5></li>
-<li><h5>List</h5>
-<ul>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/list/array">ArrayList</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/list/linked/list">LinkedList</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/list/doubly/linked/list">Doubly LinkedList</a></h5></li>
-</ul>
-</li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/queue">Queue</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/stack">Stack</a></h5></li>
-</ul>
 </li><li><h3>알고리즘 (Algorithm)</h3>
 <ul> 
 <li><h5>Graph</h5>
