@@ -14,15 +14,25 @@
 + [Queue](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/queue)
 + [Stack](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DataStructure/src/imp/stack)
 
-</li><li><h3>알고리즘 (Algorithm)</h3>
-<ul> 
-<li><h5>Graph</h5>
-<ul>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/graph/bfs">BFS (Breadth First Search)</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/graph/dfs">DFS (Depth First Search)</a></h5></li>
-</ul>
-</li>
+--------------------------------
+### Algorithm (알고리즘)</h3>
++ Graph
+  + [BFS (Breadth First Search)](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/graph/bfs)
+  + [DFS (Depth First Search)](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/graph/dfs)
 
+--------------------------------
+### Sort (정렬)
++ [Bubble Sort (버블정렬)](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/bubbleSort)
++ [Counting Sort (계수정렬)](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/countingSort)
++ [](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/heapSort)
++ [](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/insertionSort)
++ [](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/mergeSort)
++ []()
++ []()
++ []()
++ []()
++ []()
++ []()
 <li><h5>Sort (정렬)</h5>
 <ul>
 <li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/bubbleSort">Bubble Sort (버블정렬)</a></h5></li>
