@@ -1,8 +1,7 @@
 # Java
-<ul>
-<li><h3> 자바 공부 (Java Study)</h3>
-<ul>
-<li><h5><a href ="https://programmers.co.kr/">Programmers</a> : <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Beginning/src">자바 입문</a></h5></li>
+### Java Study
++ [Programmers](https://programmers.co.kr/): [자바 입문](https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Beginning/src)
+
 <li> <h5><a href ="https://programmers.co.kr/">Programmers</a> : <a href="https://github.com/jysaa5/VioletCheese_Study/tree/master/Programmers_Java_Intermediate/src">자바 중급</h5></a></li>
 
 <li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/tree/master/Java_Standard_Procedure/src">자바의 정석</a></h5></li>
