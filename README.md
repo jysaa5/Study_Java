@@ -49,10 +49,10 @@
 
 --------------------------------
 ### Math (수학)
-+ [Prime Number(소수)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/number/primeNumber/PrimeNumber.java)
-+ [Sieve of Eratosthenes(에라토스테네스의 체)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/number/primeNumber/Sieve_of_Eratosthenes.java)
-+ [Combination(조합)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/math/combination/Combination_01.java)
-+ [Permutation(순열)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/math/permutation)
++ [Prime Number (소수)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/number/primeNumber/PrimeNumber.java)
++ [Sieve of Eratosthenes (에라토스테네스의 체)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/number/primeNumber/Sieve_of_Eratosthenes.java)
++ [Combination (조합)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/math/combination/Combination_01.java)
++ [Permutation (순열)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/math/permutation)
 
 --------------------------------
 ### Data Type Distinction Class (자료형 판별 클래스)
@@ -78,11 +78,11 @@
 
 --------------------------------
 ### Coding test (코딩 테스트)
-+ [BAEKJOON(백준)](https://github.com/jysaa5/Violet_Study_Java/tree/master/BaekJoon_Ex/src)
++ [BAEKJOON (백준)](https://github.com/jysaa5/Violet_Study_Java/tree/master/BaekJoon_Ex/src)
 + [Codility](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Codility_Ex)
 + [CodeUp 기초 100문제 풀기 (Java version) → 완료](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/CodeUp_basics100/src/violetCheese)
 + [CodeUp](https://github.com/jysaa5/Violet_Study_Java/tree/master/CodeUp/src)
 + [HackerRank](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/HackerRank)
-+ [Programmers](https://programmers.co.kr/)
++ [Programmers (프로그래머스)](https://programmers.co.kr/)
   + [코딩테스트 연습](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Programmers_Ex/src)
 + [TopCoder](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/TopCoder)
