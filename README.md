@@ -24,27 +24,20 @@
 ### Sort (정렬)
 + [Bubble Sort (버블정렬)](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/bubbleSort)
 + [Counting Sort (계수정렬)](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/countingSort)
-+ [](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/heapSort)
-+ [](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/insertionSort)
-+ [](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/mergeSort)
++ [Heap Sort (힙정렬)](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/heapSort)
++ [Insertion Sort (삽입정렬)](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/insertionSort)
++ [Merge Sort (합병정렬)](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/mergeSort)
++ [Quick Sort (퀵정렬)](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/quickSort)
++ [Merge Sort (합병정렬)](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/radixSort)
++ [Selection Sort (선택정렬)](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/selectionSort)
++ [Integer ascending order (정수 오름차순 정렬)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Integer_SortAsc_Sol_01.java)
++ [Integer descending order (정수 내림차순 정렬)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Integer_SortDes_Sol_02.java)
++ 배열의 최대값, 최소값 구하기
+  + + [Solution1](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_01.java)
+  + + [Solution2](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_02.java)
 + []()
-+ []()
-+ []()
-+ []()
-+ []()
-+ []()
-<li><h5>Sort (정렬)</h5>
-<ul>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/bubbleSort">Bubble Sort (버블정렬)</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/countingSort">Counting Sort (계수정렬)</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/heapSort">Heap Sort (힙정렬)</a></h5></li> 
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/insertionSort">Insertion Sort (삽입정렬)</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/mergeSort">Merge Sort (합병정렬)</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/quickSort">Quick Sort (퀵정렬)</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/radixSort">Radix Sort (기수정렬)</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/sort/selectionSort">Selection Sort (선택정렬)</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Integer_SortAsc_Sol_01.java">Integer ascending order (정수 오름차순 정렬)</a></h5></li>
-<li><h5><a href ="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Integer_SortDes_Sol_02.java">Integer descending order (정수 내림차순 정렬)</a></h5></li>
+
+
 <li><h5>배열의 최대값, 최소값 구하기: <a href ="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_01.java">Solution1</a>, <a href ="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_02.java">Solution2</a></h5> </li>
 <li><h5>문자열 거꾸로 출력: <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_Reverse_01.java">Solution1</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_Reverse_02.java">Solution2</a></h5></li>
 <li><h5>문자열 내림차순 정렬(소문자 > 대문자): <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_SortDes_01.java">Solution1</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_SortDes_02.java">Solution2</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_SortDes_03.java">Solution3</a></h5></li>
