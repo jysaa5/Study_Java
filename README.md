@@ -48,22 +48,25 @@
 + [Binary Search Tree](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/tree/binarySearchTree)
 
 --------------------------------
-  
 ### Math (수학)
-<ul>
-<li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/number/primeNumber/PrimeNumber.java">Prime Number(소수)</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/number/primeNumber/Sieve_of_Eratosthenes.java">Sieve of Eratosthenes(에라토스테네스의 체)</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/math/combination/Combination_01.java">Combination(조합)</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/math/permutation">Permutation(순열)</a></h5></li>
-</ul>
++ [Prime Number(소수)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/number/primeNumber/PrimeNumber.java)
++ [Sieve of Eratosthenes(에라토스테네스의 체)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/number/primeNumber/Sieve_of_Eratosthenes.java)
++ [Combination(조합)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/math/combination/Combination_01.java)
++ [Permutation(순열)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/math/permutation)
 
-<li><h5> <a href="https://github.com/jysaa5/Violet_Study_Java/tree/master/Algorithm/src/distinguish/data/type">자료형 판별 클래스 (Data Type Distinction Class)</a></h5></li>
+--------------------------------
+### Data Type Distinction Class (자료형 판별 클래스)
++ [code](https://github.com/jysaa5/Violet_Study_Java/tree/master/Algorithm/src/distinguish/data/type)
 
-<li><h5>재귀함수 (Recursive Function)</h5>
-<ul>
-  <li><h5>피보나치 수열 (Fibonacci Numbers): <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Fibonacci_Sol_01.java">Solution 01</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Fibonacci_Sol_02.java">Solution 02</a></h5></li>
-  <li><h5>팩토리얼 (Factorial): <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Factorial_Sol_01.java">Solution 01</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Factorial_Sol_02.java">Solution 02</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Factorial_Sol_03.java">Solution 03</a></h5></li>
-</ul>
+--------------------------------
+### Recursive Function (재귀함수)
++ Fibonacci Numbers (피보나치 수열)
+  + [Solution 01](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Fibonacci_Sol_01.java)
+  + [Solution 02](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Fibonacci_Sol_02.java)
++ Factorial (팩토리얼)
+  + [Solution 01](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Factorial_Sol_01.java)
+  + [Solution 02](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Factorial_Sol_02.java)
+  + [Solution 03](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Factorial_Sol_03.java)
 
 <li><h5>문자열 (String)</h5>
 <ul>
