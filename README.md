@@ -68,29 +68,21 @@
   + [Solution 02](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Factorial_Sol_02.java)
   + [Solution 03](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/recursive/function/Factorial_Sol_03.java)
 
-<li><h5>문자열 (String)</h5>
-<ul>
-<li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/tree/master/Algorithm/src/stringBuilder">StringBuilder</a></h5>
-</li>
-</ul>
-  
-</li>
-</ul>
-</li>
-<li><h3>디자인 패턴 (Design Pattern)</h3> 
-<ul>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DesignPattern/src/singleton/pattern">Singleton Pattern</a></h5></li>
-</ul>
-</li>
-<li><h3>코딩 테스트 준비 (Coding test)</h3>
-<ul>
-<li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/tree/master/BaekJoon_Ex/src">BAEKJOON(백준)</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Codility_Ex">Codility</a></h5></li>
-<li><h5><a href ="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/CodeUp_basics100/src/violetCheese">CodeUp 기초 100문제 풀기 (Java version) → 완료</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/tree/master/CodeUp/src">CodeUp</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/HackerRank">HackerRank</a></h5></li>
-<li><h5> <a href ="https://programmers.co.kr/">Programmers</a> : <a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Programmers_Ex/src">코딩테스트 연습</a></h5></li>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/TopCoder">TopCoder</a></h5></li>
-</ul>
-</li>
-</ul>
+--------------------------------
+### String (문자열)
++ [StringBuilder](https://github.com/jysaa5/Violet_Study_Java/tree/master/Algorithm/src/stringBuilder)
+
+--------------------------------
+### Design Pattern (디자인 패턴)
++ [Singleton Pattern](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/DesignPattern/src/singleton/pattern)
+
+--------------------------------
+### Coding test (코딩 테스트)
++ [BAEKJOON(백준)](https://github.com/jysaa5/Violet_Study_Java/tree/master/BaekJoon_Ex/src)
++ [Codility](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Codility_Ex)
++ [CodeUp 기초 100문제 풀기 (Java version) → 완료](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/CodeUp_basics100/src/violetCheese)
++ [CodeUp](https://github.com/jysaa5/Violet_Study_Java/tree/master/CodeUp/src)
++ [HackerRank](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/HackerRank)
++ [Programmers](https://programmers.co.kr/)
+  + [코딩테스트 연습](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Programmers_Ex/src)
++ [TopCoder](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/TopCoder)
