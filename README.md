@@ -33,8 +33,8 @@
 + [Integer ascending order (정수 오름차순 정렬)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Integer_SortAsc_Sol_01.java)
 + [Integer descending order (정수 내림차순 정렬)](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Integer_SortDes_Sol_02.java)
 + 배열의 최대값, 최소값 구하기
-  + + [Solution1](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_01.java)
-  + + [Solution2](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_02.java)
+  + [Solution1](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_01.java)
+  + [Solution2](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_02.java)
 + []()
 
 
