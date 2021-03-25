@@ -35,21 +35,21 @@
 + 배열의 최대값, 최소값 구하기
   + [Solution1](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_01.java)
   + [Solution2](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_02.java)
-+ []()
++ 문자열 거꾸로 출력
+  + [Solution1](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_Reverse_01.java)
+  + [Solution2](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_Reverse_02.java)
++ 문자열 내림차순 정렬(소문자 > 대문자)
+  + [Solution1](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_SortDes_01.java)
+  + [Solution2](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_SortDes_02.java)
+  + [Solution3](https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_SortDes_03.java) 
 
+--------------------------------
+### Tree (트리)
++ [Binary Search Tree](https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/tree/binarySearchTree)
 
-<li><h5>배열의 최대값, 최소값 구하기: <a href ="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_01.java">Solution1</a>, <a href ="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/number/size/Max_Min_Sol_02.java">Solution2</a></h5> </li>
-<li><h5>문자열 거꾸로 출력: <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_Reverse_01.java">Solution1</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_Reverse_02.java">Solution2</a></h5></li>
-<li><h5>문자열 내림차순 정렬(소문자 > 대문자): <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_SortDes_01.java">Solution1</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_SortDes_02.java">Solution2</a>, <a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/sort/string/String_SortDes_03.java">Solution3</a></h5></li>
-</ul>
+--------------------------------
   
-</li>
-<li><h5>Tree</h5>
-<ul>
-<li><h5><a href="https://github.com/jysaa5/VioletCheese_Study_Java/tree/master/Algorithm/src/tree/binarySearchTree">Binary Search Tree</a></h5></li>
-</ul>
-  
-<li><h5>Math</h5>
+### Math (수학)
 <ul>
 <li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/number/primeNumber/PrimeNumber.java">Prime Number(소수)</a></h5></li>
 <li><h5><a href="https://github.com/jysaa5/Violet_Study_Java/blob/master/Algorithm/src/number/primeNumber/Sieve_of_Eratosthenes.java">Sieve of Eratosthenes(에라토스테네스의 체)</a></h5></li>
