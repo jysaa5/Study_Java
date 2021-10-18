@@ -1,12 +1,5 @@
 package character.string;
 
-/*
-public class Main{
-public static void main(String[] args){
-}
-}
-*/
-// 문제: 11654 (아스키 코드)
 import java.util.Scanner;
 
 public class ASCII_Ex {
